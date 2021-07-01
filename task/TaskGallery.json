@@ -157,8 +157,6 @@
         "11 * * * * https://raw.githubusercontent.com/lesong/QuantumultX/main/jdtask/jd_superMarket.js, tag=东东超市, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxc.png",
         "10 0,7,23 * * * https://raw.githubusercontent.com/lesong/QuantumultX/main/jdtask/jd_syj.js, tag=赚京豆, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_syj.png",
         "55 23 * * * https://raw.githubusercontent.com/lesong/QuantumultX/main/jdtask/jd_unsubscribe.js, tag=取关京东店铺商品, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png",
-        "0 0 0 * * * https://raw.githubusercontent.com/lesong/QuantumultX/main/jdtask/jd_xtg.js, tag=家电星推官, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png",
-        "0 0 0 * * * https://raw.githubusercontent.com/lesong/QuantumultX/main/jdtask/jd_xtg_help.js, tag=家电星推官好友互助, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png",
         "10 0,20 * * * https://raw.githubusercontent.com/lesong/QuantumultX/main/jdtask/jd_necklace.js, tag=点点券, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png",
         "09 * * * https://raw.githubusercontent.com/photonmang/quantumultX/master/dianshijia.js, tag=电视家"
 		
