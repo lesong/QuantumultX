@@ -2280,7 +2280,7 @@ DOMAIN-SUFFIX,hd.hupu.com,REJECT
 DOMAIN-SUFFIX,lite.hupu.com,REJECT
 DOMAIN-SUFFIX,shence.hupu.com,REJECT
 ## > Inner-active-ads
-DOMAIN-SUFFIX,inner-active.mobi
+DOMAIN-SUFFIX,inner-active.mobi,REJECT
 ## > 凤凰传媒-ads
 DOMAIN-SUFFIX,deliver.ifeng.com,REJECT
 DOMAIN-SUFFIX,api.newad.ifeng.com,REJECT
