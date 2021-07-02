@@ -4729,7 +4729,7 @@ DOMAIN-SUFFIX,statisticsv2.yinyuetai.com,REJECT
 DOMAIN-SUFFIX,stats.yinyuetai.com,REJECT
 DOMAIN-SUFFIX,t.collect.yinyuetai.com,REJECT
 ## > 友盟-ads
-DOMAIN-SUFFIX,cnzz.com.so
+DOMAIN-SUFFIX,cnzz.com.so,REJECT
 DOMAIN-SUFFIX,cdn0.mobmore.com,REJECT
 DOMAIN-SUFFIX,ex.mobmore.com,REJECT
 DOMAIN-SUFFIX,alog.umeng.co,REJECT
