@@ -511,9 +511,9 @@ DOMAIN-SUFFIX,nlmrjnew.oss-cn-shanghai.aliyuncs.com,REJECT
 DOMAIN-SUFFIX,optimus-ads.amap.com.w.alikunlun.com,REJECT
 DOMAIN-SUFFIX,ruikeja-mobileoffice.oss-cn-hangzhou.aliyuncs.com,REJECT
 DOMAIN-SUFFIX,shaquevip.oss-cn-zhangjiakou.aliyuncs.com,REJECT
-DOMAIN-SUFFIX,sspmiaoshuo.cn,REJECT-hangzhou.log.aliyuncs.com,REJECT
+DOMAIN-SUFFIX,sspmiaoshuo.cn-hangzhou.log.aliyuncs.com,REJECT
 DOMAIN-SUFFIX,tmea116.oss-cn-beijing.aliyuncs.com,REJECT
-DOMAIN-SUFFIX,ttjx-online.cn,REJECT-hangzhou.log.aliyuncs.com,REJECT
+DOMAIN-SUFFIX,ttjx-online.cn-hangzhou.log.aliyuncs.com,REJECT
 DOMAIN-SUFFIX,video231.oss-cn-beijing.aliyuncs.com,REJECT
 DOMAIN-SUFFIX,xinjscn.oss-cn-hangzhou.aliyuncs.com,REJECT
 DOMAIN-SUFFIX,xz-development.oss-cn-beijing.aliyuncs.com,REJECT
