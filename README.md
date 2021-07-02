@@ -13,9 +13,9 @@
 
 4.添加了哔哩哔哩自动换区功能
 
-5.添加了Tiktok解锁区域功能（默认JP）
+5.添加了Tiktok解锁区域功能，支持直播（默认JP）
 
-6.BOXJS用了重写功能实现  并没有使用HTTP Backnd 因为用HTTP Backnd我的BOXJS打不开，也不知道为什么
+6.BOXJS用了最新的HTTP Backnd 方式
 
 7.其他常用常用能，比如签到，比价，历史价格等
 
