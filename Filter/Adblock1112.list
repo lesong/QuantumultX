@@ -2031,7 +2031,7 @@ DOMAIN-SUFFIX,logger.uol.com.br,REJECT
 DOMAIN-SUFFIX,metrics.uol.com.br,REJECT
 DOMAIN-SUFFIX,tm.uol.com.br,REJECT
 ## > Google-ads
-DOMAIN-KEYWORD,googleads
+DOMAIN-KEYWORD,googleads,REJECT
 DOMAIN-SUFFIX,a.admob.com,REJECT
 DOMAIN-SUFFIX,ads.gmodules.com,REJECT
 DOMAIN-SUFFIX,ads.google.com,REJECT
