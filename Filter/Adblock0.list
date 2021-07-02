@@ -2181,7 +2181,7 @@ DOMAIN-SUFFIX,bdasd.chinabig.com.c1n,REJECT
 DOMAIN-SUFFIX,bdjsfl.chinabig.com.c1n,REJECT
 ## > 华为-ads
 DOMAIN-SUFFIX,cs02-pps-drcn.dbankcdn.com,REJECT
-DOMAIN-SUFFIX,libfre.obs.cn,REJECT-east-3.myhuaweicloud.com,REJECT
+DOMAIN-SUFFIX,libfre.obs.cn-east-3.myhuaweicloud.com,REJECT
 DOMAIN-SUFFIX,teslaamg.obs.cn,REJECT-east-3.myhuaweicloud.com,REJECT
 DOMAIN-SUFFIX,hiad.vmall.com,REJECT
 ## > IAC-ads
