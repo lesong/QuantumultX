@@ -2430,7 +2430,7 @@ DOMAIN-SUFFIX,androidgo.duapp.com,REJECT
 DOMAIN-SUFFIX,noxagile.duapp.com,REJECT
 DOMAIN-SUFFIX,count.game.pps.tv,REJECT
 DOMAIN-SUFFIX,game.pps.tv,REJECT
-DOMAIN-SUFFIX,api.ts.feedback.71.am
+DOMAIN-SUFFIX,api.ts.feedback.71.am,REJECT
 DOMAIN-SUFFIX,static.g.ppstream.com,REJECT
 DOMAIN-SUFFIX,stat.ppstream.com,REJECT
 DOMAIN-SUFFIX,feedback.qy.net,REJECT
