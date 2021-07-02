@@ -1,11 +1,5 @@
 ## ⛔️ 阻止打扰
 ## > 17173-ads
-DOMAIN-SUFFIX,ad.17173.com
-DOMAIN-SUFFIX,vda.17173.com
-DOMAIN-SUFFIX,log1.17173.com
-DOMAIN-SUFFIX,cvda.17173.com
-DOMAIN-SUFFIX,stat.v.17173.com
-DOMAIN-SUFFIX,s.17173cdn.com
 DOMAIN-SUFFIX,a.clickdata.37wan.com
 DOMAIN-SUFFIX,pt.clickdata.37wan.com
 DOMAIN-SUFFIX,image.37wan.cn
