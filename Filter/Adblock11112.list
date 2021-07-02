@@ -2041,7 +2041,7 @@ DOMAIN-SUFFIX,adsense.com,REJECT
 DOMAIN-SUFFIX,adsensecustomsearchads.com,REJECT
 DOMAIN-SUFFIX,adsenseformobileapps.com,REJECT
 DOMAIN-SUFFIX,adservice.google.com,REJECT
-DOMAIN-SUFFIX,adservice.google.com.hk
+DOMAIN-SUFFIX,adservice.google.com.hk,REJECT
 DOMAIN-SUFFIX,advancedtracker.appspot.com,REJECT
 DOMAIN-SUFFIX,advertisercommunity.com,REJECT
 DOMAIN-SUFFIX,advertiserscommunity.com,REJECT
@@ -4636,8 +4636,8 @@ DOMAIN-SUFFIX,ads.sina.com,REJECT
 DOMAIN-SUFFIX,atm.sina.com,REJECT
 DOMAIN-SUFFIX,oascentral.sina.com,REJECT
 DOMAIN-SUFFIX,pfpip.sina.com,REJECT
-DOMAIN-SUFFIX,adimages.sina.com.hk
-DOMAIN-SUFFIX,oascentral.sina.com.hk
+DOMAIN-SUFFIX,adimages.sina.com.hk,REJECT
+DOMAIN-SUFFIX,oascentral.sina.com.hk,REJECT
 DOMAIN-SUFFIX,s3.pfp.sina.net,REJECT
 DOMAIN-SUFFIX,adimg.uve.weibo.com,REJECT
 DOMAIN-SUFFIX,alitui.weibo.com,REJECT
