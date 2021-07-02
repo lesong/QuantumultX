@@ -2714,7 +2714,7 @@ DOMAIN-SUFFIX,adbuyer3.lycos.com,REJECT
 DOMAIN-SUFFIX,ads.tripod.lycos.co.uk,REJECT
 DOMAIN-SUFFIX,ads.tripod.lycos.de,REJECT
 DOMAIN-SUFFIX,ads.tripod.lycos.es,REJECT
-DOMAIN-SUFFIX,ads.tripod.lycos.nl
+DOMAIN-SUFFIX,ads.tripod.lycos.nl,REJECT
 DOMAIN-SUFFIX,advertising.lycos.com,REJECT
 DOMAIN-SUFFIX,beacon.lycos.com,REJECT
 DOMAIN-SUFFIX,client.sidesearch.lycos.com,REJECT
