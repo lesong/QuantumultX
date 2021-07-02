@@ -503,7 +503,7 @@ DOMAIN-SUFFIX,fs-uc-nearme-com-cn.oss-cn-hangzhou.aliyuncs.com,REJECT
 DOMAIN-SUFFIX,img-dsp.oss-cn-beijing.aliyuncs.com,REJECT
 DOMAIN-SUFFIX,jiayi1.oss-cn-shanghai.aliyuncs.com,REJECT
 DOMAIN-SUFFIX,jpg1.oss-cn-beijing.aliyuncs.com,REJECT
-DOMAIN-SUFFIX,jsadsdisplay.cn,REJECT-beijing.log.aliyuncs.com,REJECT
+DOMAIN-SUFFIX,jsadsdisplay.cn-beijing.log.aliyuncs.com,REJECT
 DOMAIN-SUFFIX,mgtv-bbqn.oss-cn-beijing.aliyuncs.com,REJECT
 DOMAIN-SUFFIX,mixbig.oss-ap-southeast-1.aliyuncs.com,REJECT
 DOMAIN-SUFFIX,mobaders.oss-cn-beijing.aliyuncs.com,REJECT
