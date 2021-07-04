@@ -1,0 +1,10 @@
+# NAME: Adblesong
+# AUTHOR: lesong
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2021-07-05 12:06:33
+
+#返利网
+host-suffix, gw.fanli.com, 广告拦截
+
+#京东
+host-suffix, imgcps.jd.com, 广告拦截
