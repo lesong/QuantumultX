@@ -1,16 +1,13 @@
 # NAME: Adblesong
 # AUTHOR: lesong
-# REPO: https://github.com/blackmatrix7/ios_rule_script
 # UPDATED: 2021-07-05 12:06:33
 
 host-suffix, imgcps.jd.com, 广告拦截
 host-suffix, pgdt.ugdtimg.com, 广告拦截
-host-suffix, g1.tagtic.cn, 广告拦截
 host-suffix, img.adnyg.com, 广告拦截
 host-suffix, img.adnyg.com.w.kunlungr.com, 广告拦截
 host-suffix, log.tagtic.cn, 广告拦截
 host-suffix, sdownload.stargame.com, 广告拦截
-host-suffix, ulogs.umeng.com, 广告拦截
 
 #pkg=white.ad.web.com;浏览器播放视频〔提示误伤〕不√下两条, 广告拦截
 host-suffix, t7z.cupid.iqiyi.com, 广告拦截
