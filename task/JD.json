@@ -31,17 +31,23 @@
         "10 7 * * * https://raw.githubusercontent.com/lesong/jdtack/main/jd_crazy_joy_bonus.js, tag=监控crazyJoy分红, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_crazy_joy.png, enabled=true",
         "10 1,12 * * * https://raw.githubusercontent.com/lesong/jdtack/main/jd_crazy_joy_coin.js, tag=crazyJoy挂机, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_crazy_joy.png, enabled=true",
         "10 * * * * https://raw.githubusercontent.com/lesong/jdtack/main/jd_daily_egg.js, tag=天天提鹅, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdte.png, enabled=true",
-        "30 7 * * * https://raw.githubusercontent.com/lesong/jdtack/main/jd_ddly.js, tag=东东乐园, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true",
-        "1 21 * * *https://raw.githubusercontent.com/lesong/jdtack/main/jd_ddo_pk.js, tag=京享值PK, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true",
+        "30 7 * * * https://raw.githubusercontent.com/lesong/jdtack/main/jd_ddly.js, tag=东东乐园, img-url=https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/ICON/shuyuan.png, enabled=true",
+        "15 0,6,13,19,21 * * * https://raw.githubusercontent.com/lesong/jdtack/main/jd_ddo_pk.js, tag=京享值PK, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true",
         "0 2 * * * https://raw.githubusercontent.com/lesong/jdtack/main/jd_dpqd.js, tag=店铺签到, img-url=https://raw.githubusercontent.com/ChuheGit/1/main/QuantumultX/Gallery/API-Icon/jd_cash.png, enabled=true",
         "10 * * * * https://raw.githubusercontent.com/lesong/jdtack/main/jd_dreamFactory.js, tag=京喜工厂, img-url=https://github.com/58xinian/icon/raw/master/jdgc.png, enabled=true",
         "55 59 9  * * ? https://raw.githubusercontent.com/lesong/jdtack/main/jd_europeancup.js, tag=欧洲狂欢杯, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true",
         "16 0 * * * https://raw.githubusercontent.com/ChuheGit/1/main/Script/jd_scripts/jd_small_home.js, tag=东东小窝, img-url=https://raw.githubusercontent.com/ChuheGit/1/main/QuantumultX/Gallery/API-Icon/jd_small_home.png, enabled=true",
         "1 * * * * https://raw.githubusercontent.com/lesong/jdtack/main/jd_family.js, tag=京东家庭号, img-url=https://raw.githubusercontent.com/ChuheGit/1/main/QuantumultX/Gallery/API-Icon/jd_small_home.png, enabled=true",
         "5 6-18/6 * * * https://raw.githubusercontent.com/lesong/jdtack/main/jd_fruit.js, tag=东东农场, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdnc.png, enabled=true",
-        "20 13 * * 6 https://raw.githubusercontent.com/lesong/jdtack/main/jd_get_share_code.js, tag=获取互助码, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true",
+        "20 13 * * 6 https://raw.githubusercontent.com/lesong/jdtack/main/jd_get_share_code.js, tag=获取互助码, img-url=img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true",
         "30 8,16,20 * * * https://raw.githubusercontent.com/lesong/jdtack/main/jd_jxd.js, tag=京小兑, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_jxd.png, enabled=true",
-        "0 9,12,18 * * * https://raw.githubusercontent.com/lesong/jdtack/main/jd_jxmc.js, tag=京喜牧场, img-url=https://raw.githubusercontent.com/ChuheGit/1/main/QuantumultX/Gallery/API-Icon/jx_nc.png, enabled=true",
+		"20 0-23/3 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_jxmc.js, tag=京喜牧场, img-url=https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/ICON/shuyuan.png, enabled=true",
+        "0 * * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_mczlb.js, tag=京喜牧场助力版, img-url=https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/ICON/shuyuan.png, enabled=true",
+        "0 12 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_pjtx.js, tag=京东物流派件提醒, img-url=https://raw.githubusercontent.com/id77/QuantumultX/master/icon/jdWuLiu.png, enabled=true",
+        "55 23 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_qxgz.js, tag=取关京东店铺商品, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true",
+        "11 0 * * 1 https://raw.githubusercontent.com/lesong/jdtack/main/jd_delCoupon.js, tag=京东删除优惠券, img-url=https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/ICON/shuyuan.png, enabled=true",
+        "31 * * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_sqdyj.js, tag=省钱大赢家之翻翻乐, img-url=https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/ICON/shuyuan.png, enabled=true",
+        "0 9 * * *https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_zxhy.js, tag=注销店铺会员卡, img-url=https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/ICON/shuyuan.png, enabled=true",		
         "10-20/5 12 * * * https://raw.githubusercontent.com/lesong/jdtack/main/jd_live.js, tag=京东直播, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true",
         "10 0 * * * https://raw.githubusercontent.com/lesong/jdtack/main/jd_kd.js, tag=京东快递签到, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_kd.png, enabled=true",
         "15 6-18/6 * * * https://raw.githubusercontent.com/lesong/jdtack/main/jd_pet.js, tag=东东萌宠, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdmc.png, enabled=true",
@@ -55,8 +61,8 @@
         "30 11 * * * https://raw.githubusercontent.com/lesong/jdtack/main/jd_superBrand.js, tag=特物Z|万物皆可国创, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true",
         "10 0,7,23 * * * https://raw.githubusercontent.com/lesong/jdtack/main/jd_syj.js, tag=赚京豆, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_syj.png, enabled=true",
         "1 8 * * * https://raw.githubusercontent.com/lesong/jdtack/main/jd_wxFans.js, tag=粉丝互动, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true",
-        "25 10-22/3 * * * https://raw.githubusercontent.com/lesong/jdtack/main/jd_z_health_community.js, tag=东东健康社区, img-url=https://raw.githubusercontent.com/ChuheGit/1/main/QuantumultX/Gallery/API-Icon/jd_health.png, enabled=true",
-        "25 * * * * https://raw.githubusercontent.com/lesong/jdtack/main/jd_z_health_energy.js, tag=东东健康社区收集能量, img-url=https://raw.githubusercontent.com/ChuheGit/1/main/QuantumultX/Gallery/API-Icon/jd_health_collect.png, enabled=true",
+        "13 1,6,22 * * * https://raw.githubusercontent.com/lesong/jdtack/main/jd_z_health_community.js, tag=东东健康社区, img-url=https://raw.githubusercontent.com/ChuheGit/1/main/QuantumultX/Gallery/API-Icon/jd_health.png, enabled=true",
+        "5-45/20 * * * *  https://raw.githubusercontent.com/lesong/jdtack/main/jd_z_health_energy.js, tag=东东健康社区收集能量, img-url=https://raw.githubusercontent.com/ChuheGit/1/main/QuantumultX/Gallery/API-Icon/jd_health_collect.png, enabled=true",
         "30 0,1 0 * * * https://raw.githubusercontent.com/lesong/jdtack/main/jd_bean_sign.js, tag=京东多合一签到, img-url=https://raw.githubusercontent.com/anker1209/icon/main/jdsc.png, enabled=true",
         "10 0 * * * https://raw.githubusercontent.com/lesong/jdtack/main/jd_jdzz.js, tag=京东赚赚, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdzz.png, enabled=true",
         "15 */2 * * * https://raw.githubusercontent.com/lesong/jdtack/main/jd_joy.js, tag=宠汪汪, img-url=https://raw.githubusercontent.com/ChuheGit/1/main/QuantumultX/Gallery/API-Icon/jd_joy.png, enabled=true",
@@ -78,6 +84,11 @@
         "10 0 * * * https://raw.githubusercontent.com/lesong/jdtack/main/jd_shop.js, tag=进店领豆, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_shop.png, enabled=true",
         "1 0-23/2 * * * https://raw.githubusercontent.com/Tsukasa007/my_script/master/jd_qqxing.js, tag=星系牧场, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true",
         "0 8 * * * https://raw.githubusercontent.com/Tsukasa007/my_script/master/jd_wyw.js, tag=玩一玩成就, img-url=https://raw.githubusercontent.com/tsukasa007/icon/master/jd_wyw.png, enabled=true",
+        "15 10 * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_djjl.js, tag=东东电竞经理, img-url=https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/ICON/shuyuan.png, enabled=true
+        "5 * * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_dwlm.js, tag=动物联萌, img-url=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/image/jd.png, enabled=true
+
+
+
     ]
 
 }
