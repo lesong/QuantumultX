@@ -54,15 +54,9 @@
         "0 0 6 * * * https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/nasa/nasapic.js, tag=NASA每日一图, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/nasa.png, enabled=true",
         "0 0 6 * * * https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/idaily/idaily.js, tag=iDaily每日环球视野, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/idaily.png, enabled=true",
         "0 0-23/1 * * * https://raw.githubusercontent.com/songyangzz/QuantumultX/master/testflight.js, tag=testflight公测监控, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/testflight.png, enabled=true",
-        "1 0 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/115/115.js, tag=115, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/115.png, enabled=true",
-        "0 1,20 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js, tag=滴滴出行, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/didi.png, enabled=true",
-        "1 0 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/Haidilao/Haidilao.js, tag=海底捞, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/haidilao.png, enabled=true",
         "0 7 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/MovieCalendar/MovieCalendar.js, tag=电影日历, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/MovieCalendar.png, enabled=true",
-        "1 0 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/Naixue/Naixue.js, tag=奈雪, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Naixue.png, enabled=true",
         "0 * * * * https://raw.githubusercontent.com/zZPiglet/Task/master/Weibo/Weibo.js, tag=微博通知, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/weibo.png, enabled=true",        
-        "1 0 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/elem/elemCheckIn.js, tag=饿了么-打卡领红包, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/elem.png, enabled=true",
         "0 * * * * https://raw.githubusercontent.com/zZPiglet/Task/master/heybox/heybox.js, tag=小黑盒, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/heybox.png, enabled=true",
-        "0 0 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/umetrip/umetrip.js, tag=航旅纵横, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/umetrip.png, enabled=true",
         "5 8 * * * https://raw.githubusercontent.com/mw418/QuantumultX/master/setu.js, tag=每日色图 ,img-url=https://raw.githubusercontent.com/shoujiqiyuan/PokemonGOforQuanX/master/IconSet/Z012.png, enabled=true",
     ]
 }
