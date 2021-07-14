@@ -78,4 +78,6 @@
         "10 0 * * * https://raw.githubusercontent.com/lesong/jdtack/main/jd_shop.js, tag=进店领豆, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_shop.png, enabled=true",
         "1 0-23/2 * * * https://raw.githubusercontent.com/Tsukasa007/my_script/master/jd_qqxing.js, tag=星系牧场, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true",
         "0 8 * * * https://raw.githubusercontent.com/Tsukasa007/my_script/master/jd_wyw.js, tag=玩一玩成就, img-url=https://raw.githubusercontent.com/tsukasa007/icon/master/jd_wyw.png, enabled=true",
+    ]
+
 }
