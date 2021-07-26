@@ -78,8 +78,6 @@
     {"config":"0 11 * * * https://raw.githubusercontent.com/lesong/jdtack/main/jd_lsj.js, tag=京东零食街, img-url=https://raw.githubusercontent.com/anker1209/icon/main/jdsc.png, enabled=true"},
     {"config":"1 0-23/2 * * * https://raw.githubusercontent.com/Tsukasa007/my_script/master/jd_qqxing.js, tag=星系牧场, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"},
     {"config":"10 10 * * * https://raw.githubusercontent.com/cdle/jd_study/main/disposable/jd_olympicgames_guard.js, tag=全民运动会守卫红包, img-url=https://raw.githubusercontent.com/ChuheGit/1/main/QuantumultX/Gallery/API-Icon/jd_redPacket.png, enabled=true"},
-    {"config":"12 0,6-23/2 * * * https://raw.githubusercontent.com/lesong/jdtack/main/jd_summer_movement.js, tag=燃动夏季, img-url=https://raw.githubusercontent.com/anker1209/icon/main/jdsc.png, enabled=true"},
-    {"config":"14/41 7-14 * * * https://raw.githubusercontent.com/lesong/jdtack/main/jd_summer_movement_help.js, tag=燃动夏季_SH助力, img-url=https://raw.githubusercontent.com/anker1209/icon/main/jdsc.png, enabled=true"},
     {"config":"30 10 * * * https://raw.githubusercontent.com/lesong/jdtack/main/jd_try.js, tag=京东试用, img-url=https://raw.githubusercontent.com/ZCY01/img/master/jdtryv1.png, enabled=true"},
     {"config":"21 9 * * * https://raw.githubusercontent.com/smiek2221/scripts/master/gua_MMdou.js, tag=MM领京豆, img-url=https://raw.githubusercontent.com/anker1209/icon/main/jdsc.png, enabled=true"},
     {"config":"18 0-23/2 * * * https://raw.githubusercontent.com/smiek2221/scripts/master/gua_wealth_island.js, tag=财富大陆, img-url=https://raw.githubusercontent.com/anker1209/icon/main/jdsc.png, enabled=true"},
