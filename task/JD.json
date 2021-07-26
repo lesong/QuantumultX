@@ -54,7 +54,7 @@
     {"config":"5 * * * * https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_dwlm.js, tag=动物联萌, img-url=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/image/jd.png, enabled=true"},
     {"config":"20 0-23/3 * * * https://raw.githubusercontent.com/lesong/jdtack/main/jd_joy_park.js, tag=汪汪乐园养joy, img-url=https://raw.githubusercontent.com/tsukasa007/icon/master/jd_joypark_joy.png, enabled=true"},
     {"config":"20 7,9,17,20 * * * https://raw.githubusercontent.com/lesong/jdtack/main/jd_joy_park_task.js, tag=汪汪乐园每日任务, img-url=https://raw.githubusercontent.com/tsukasa007/icon/master/jd_joypark_task.png, enabled=true"},
-    {"config":"30 11 * * * https://raw.githubusercontent.com/lesong/jdtack/main/jd_superBrand.js, tag=特物Z|万物皆可国创, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"},
+    {"config":"30 11 * * * https://raw.githubusercontent.com/eicky/jd_scripts/master/jd_superBrand.js, tag=特物Z|万物皆可国创, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true"},
     {"config":"30 8,16,20 * * * https://raw.githubusercontent.com/lesong/jdtack/main/jd_jxd.js, tag=京小兑, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_jxd.png, enabled=true"},
     {"config":"0 0 * * * https://raw.githubusercontent.com/cdle/jd_study/main/jd_angryKoi.js, tag=愤怒的锦鲤, img-url=https://raw.githubusercontent.com/ChuheGit/1/main/QuantumultX/Gallery/API-Icon/jx_cfd.png, enabled=true"},
     {"config":"0 0 * * * https://raw.githubusercontent.com/cdle/jd_study/main/jd_angryCash.js, tag=愤怒的现金, img-url=https://raw.githubusercontent.com/ChuheGit/1/main/QuantumultX/Gallery/API-Icon/jx_cfd.png, enabled=true"},
