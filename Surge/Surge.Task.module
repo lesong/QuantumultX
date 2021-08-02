@@ -1,0 +1,19 @@
+#!name=Surge Cron Task
+#!desc=Surge自动化脚本
+#!system=ios
+[Script]
+# NASA每日一图
+NASA每日一图 = type=cron,cronexp=5 0 * * *,script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/nasa/nasapic.js
+iDaily每日环球视野 = type=cron,cronexp=5 0 * * *,script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/idaily/idaily.js
+
+
+
+
+
+
+
+
+
+
+
+

@@ -80,6 +80,12 @@
 MM领京豆 = type=cron,cronexp=21 9 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/smiek2221/scripts/master/gua_MMdou.js
 财富大陆 = type=cron,cronexp=18 0-23/2 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/smiek2221/scripts/master/gua_wealth_island.js
 财富大陆互助 = type=cron,cronexp="18 0,1,9,14,18 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/smiek2221/scripts/master/gua_wealth_island_help.js
+京东历史价格查询 = type=http-response,pattern=^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_price/main/jd_price.js
+京粉转链 = type=http-response,pattern=^https?://api\.m\.jd\.com/(client\.action|api)\?functionId=(wareBusiness|serverConfig|basicConfig|lite_wareBusiness|pingou_item),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/githubdulong/Script/master/jfConvert.js,use-local-host-item-for-proxy = true
+
+
+[MITM]
+hostname = %APPEND% api.m.jd.com, draw.jdfcloud.com, jdjoy.jd.com
 
 
 
