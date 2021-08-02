@@ -12,5 +12,30 @@
 # > 轻颜/蒸汽波/Ulike相机解锁VIP
 轻颜/蒸汽波/Ulike相机解锁VIP = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/qyxj.js,type=http-response,pattern=^https:\/\/commerce-.*api\.faceu\.mobi\/commerce\/v1\/subscription\/user_info
 
+# Netflix评分
+nf_rating.js = script-path=https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js,type=http-request,pattern=^https?://ios\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D
+nf_rating.js = requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js,type=http-response,pattern=^https?://ios\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D
+单集评分 = type=http-response,pattern=^https?://ios\.prod\.ftl\.netflix\.com/iosui/warmer/.+type=show-ath,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating_season.js
+
+#Emby
+embyPremiere.js = type=http-response,pattern=^https?:\/\/mb3admin.com\/admin\/service\/registration\/validateDevice,requires-body=1,max-size=0,script-path=https://subweb.oss-cn-hongkong.aliyuncs.com/Script/embyPremiere.js
+
+
+#VSCO
+vsco = type=http-response,pattern=https:\/\/api\.revenuecat\.com\/v\d\/subscribers\/\d+$,requires-body=1,max-size=0,script-path=https://github.com/zhihenglu/SurgeModule/raw/master/Script/vsco.js
+
+
+#TF
+TF DOWN = type=http-request,pattern=^https?:\/\/testflight\.apple\.com\/v2\/accounts\/.*\/apps\/\d*/builds/\d*/install,requires-body=1,max-size=0,script-path=https://gist.githubusercontent.com/NobyDa/9be418b93afc5e9c8a8f4d28ae403cf2/raw/TF_Download.js
+
+#BiliBili
+Bili Region = type=http-response,pattern=^https:\/\/ap(p|i)\.bilibili\.com\/(pgc\/view\/(v\d\/)?app|x(\/v\d)?\/view\/video)\/(season|online)\?access_key,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Bili_Auto_Regions.js
+
+http-response https?:\/\/api\.bilibili\.com\/pgc\/player\/api\/playurl script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/bilifj.js,requires-body=true
+
+Bili Search = type=http-request,pattern=^https:\/\/app\.bilibili\.com\/x\/v2\/search\/type\?.+?%20(%E6%B8%AF|%E5%8F%B0|%E4%B8%AD)&,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Bili_Auto_Regions.js
+
+捷径策略切换 = type=http-request,pattern=^http:\/\/nobyda\.policy,requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Shortcuts/PolicySwitch.js
+
 [MITM]
-hostname = %APPEND% api.m.jd.com, weixin110.qq.com, commerce-i18n-api.faceu.mobi, commerce-api.faceu.mobi, pay.wecut.com, biz.caiyunapp.com
+hostname = %APPEND% api.m.jd.com, weixin110.qq.com, commerce-i18n-api.faceu.mobi, commerce-api.faceu.mobi, pay.wecut.com, ios.prod.ftl.netflix.com, duckduckgo.com, mb3admin.com, testflight.apple.com, ap?.bilibili.com, api.bilibili.com, api.revenuecat.com
