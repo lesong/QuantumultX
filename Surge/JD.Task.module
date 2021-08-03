@@ -77,7 +77,6 @@
 京东宠汪汪喂食 = type=cron,cronexp=15 0-23/1 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/lpk92/jd/main/jd_joy_feedPets.js
 惊喜牧场 = type=cron,cronexp=20 0-23/3 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/lesong/jdtack/main/jd_jxmc.js
 京东零食街 = type=cron,cronexp=1 0 11 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/lesong/jdtack/main/jd_lsj.js
-星系牧场 = type=cron,cronexp=1 0-23/2 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/Tsukasa007/my_script/master/jd_qqxing.js
 全民运动会守卫红包 = type=cron,cronexp=10 10 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/cdle/jd_study/main/disposable/jd_olympicgames_guard.js
 京东试用 = type=cron,cronexp=30 10 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/JDWXX/JD/main/jd_try.js
 MM领京豆 = type=cron,cronexp=21 9 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/smiek2221/scripts/master/gua_MMdou.js
