@@ -8,7 +8,7 @@
 领京豆额外奖励 = type=cron,cronexp=10 7 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/lesong/jdtack/main/jd_bean_home.js
 省钱大赢家之翻翻乐 = type=cron,cronexp=20 * * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/lesong/jdtack/main/jd_big_winner.js
 东东超市兑换奖品 = type=cron,cronexp=59 23 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/lesong/jdtack/main/jd_blueCoin.js
-口袋书店 = type=cron,cronexp="1 8,12,18 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/lesong/jdtack/main/jd_bookshop.js
+口袋书店 = type=cron,cronexp="1 8,12,18 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/Tsukasa007/my_script/master/chinnkarahoi_jd_bookshop.js
 京东汽车 = type=cron,cronexp=10 7 * * *,wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/lesong/jdtack/main/jd_car.js
 京东汽车兑换 = type=cron,cronexp=0 0 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/lesong/jdtack/main/jd_car_exchange.js
 签到领现金 = type=cron,cronexp=2 0-23/4 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/lesong/jdtack/main/jd_cash.js
@@ -49,8 +49,8 @@
 取关京东店铺商品 = type=cron,cronexp=55 23 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_unsubscribe.js
 玩一玩成就 = type=cron,cronexp=0 8 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/Tsukasa007/my_script/master/jd_wyw.js
 动物联萌 = type=cron,cronexp=5 * * * *,wake-system=1,timeout=500,script-path=https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_dwlm.js
-汪汪乐园养joy = type=cron,cronexp=20 0-23/3 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/lesong/jdtack/main/jd_joy_park.js
-汪汪乐园每日任务 = type=cron,cronexp="20 7,9,17,20 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/lesong/jdtack/main/jd_joy_park_task.js
+汪汪乐园养joy = type=cron,cronexp="20 0-23/3 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/Tsukasa007/my_script/master/jd_joypark_joy.js
+汪汪乐园每日任务 = type=cron,cronexp="20 7,9,17,20 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/Tsukasa007/my_script/master/jd_joypark_task.js
 特物Z|万物皆可国创 = type=cron,cronexp=30 11 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/eicky/jd_scripts/master/jd_superBrand.js
 京小兑 = type=cron,cronexp="40 8,16,20 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/lesong/jdtack/main/jd_jxd.js
 领现金兑换红包 = type=cron,cronexp="0,1,2 0 * * *",wake-system=1,timeout=120,script-path=https://raw.githubusercontent.com/lesong/jdtack/main/jd_cash_exchange.js
@@ -62,7 +62,7 @@
 柠檬京东零食街 = type=cron,cronexp=11 * * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/lesong/jdtack/main/jd_lsj.js
 起早福利 = type=cron,cronexp=30 6 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/cdle/jd_study/main/jd_goodMorning.js
 东东乐园 = type=cron,cronexp=30 7 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/lesong/jdtack/main/jd_ddly.js
-汪汪乐园开工位 = type=cron,cronexp=15 */2 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/cdle/jd_study/main/disposable/jd_dogsEmploy.js
+汪汪乐园开工位 = type=cron,cronexp="20 9 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/Tsukasa007/my_script/master/jd_joypark_open.js
 店铺签到 = type=cron,cronexp=0 2 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/lesong/jdtack/main/jd_dpqd.js
 喜牧场助力版 = type=cron,cronexp=0 * * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_mczlb.js
 京东物流派件提醒 = type=cron,cronexp=0 12 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_pjtx.js
@@ -82,7 +82,12 @@ MM领京豆 = type=cron,cronexp=21 9 * * *,wake-system=1,timeout=3600,script-pat
 财富大陆互助 = type=cron,cronexp="18 0,1,9,14,18 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/smiek2221/scripts/master/gua_wealth_island_help.js
 京东历史价格查询 = type=http-response,pattern=^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_price/main/jd_price.js
 京粉转链 = type=http-response,pattern=^https?://api\.m\.jd\.com/(client\.action|api)\?functionId=(wareBusiness|serverConfig|basicConfig|lite_wareBusiness|pingou_item),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/githubdulong/Script/master/jfConvert.js,use-local-host-item-for-proxy = true
-
+激扬奥运8.8 = type=cron,cronexp="50 0,6,10 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/Tsukasa007/my_script/master/jd_olympic_opencard.js
+奥运夺金挑战赛8.9 = type=cron,cronexp="50 0 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/Tsukasa007/my_script/master/jd_olympic_win_gold.js
+定格夺冠 = type=cron,cronexp="50 0,10 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/Tsukasa007/my_script/master/jd_opencard_championship.js
+食力全开8.15 = type=cron,cronexp="1 1,11 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/Tsukasa007/my_script/master/jd_opencard_eat_open_opencard.js
+激情奔跑8.10 = type=cron,cronexp="29 0,6,10 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/Tsukasa007/my_script/master/jd_opencard_olympic_run.js
+母音甄选8.9 = type=cron,cronexp="50 0,10 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/Tsukasa007/my_script/master/jd_summer_mom_opencard.js
 
 [MITM]
 hostname = %APPEND% api.m.jd.com, draw.jdfcloud.com, jdjoy.jd.com
