@@ -2,17 +2,21 @@
 #!desc=京东自动化脚本
 #!system=ios
 [Script]
-京东多合一签到 = type=cron,cronexp=5 0 * * *,wake-system=1,timeout=60,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
+京东月资产变动通知 = type=cron,cronexp="20 9 * * *",wake-system=1,timeout=3600,script-path=https://gitee.com/zhaozhanzhan520/jd_docker/tree/master/jd_bean_month_change.js
+京东日资产变动通知 = type=cron,cronexp="20 8 * * *",wake-system=1,timeout=3600,script-path=https://gitee.com/zhaozhanzhan520/jd_docker/tree/master/jd_bean_day_change.js
+京东多合一签到 = type=cron,cronexp=5 0 * * *,wake-system=1,timeout=60,script-path=https://gitee.com/zhaozhanzhan520/jd_docker/blob/master/JD_DailyBonus.js
 获取京东Cookie = type=http-request,pattern=https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
-领京豆额外奖励 = type=cron,cronexp=10 7 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/lesong/jdtack/main/jd_bean_change.js
-领京豆额外奖励 = type=cron,cronexp=10 7 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/lesong/jdtack/main/jd_bean_home.js
+京喜签到 = type=cron,cronexp="20 1 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/lesong/jdtack/main/jx_sign.js
+领京豆额外奖励 = type=cron,cronexp="10 7 * * *",wake-system=1,timeout=3600,script-path=https://gitee.com/zhaozhanzhan520/jd_docker/tree/master/jd_bean_home.js
 省钱大赢家之翻翻乐 = type=cron,cronexp=20 * * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/lesong/jdtack/main/jd_big_winner.js
 东东超市兑换奖品 = type=cron,cronexp=59 23 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/lesong/jdtack/main/jd_blueCoin.js
 口袋书店 = type=cron,cronexp="1 8,12,18 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/Tsukasa007/my_script/master/chinnkarahoi_jd_bookshop.js
 京东汽车 = type=cron,cronexp=10 7 * * *,wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/lesong/jdtack/main/jd_car.js
 京东汽车兑换 = type=cron,cronexp=0 0 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/lesong/jdtack/main/jd_car_exchange.js
 签到领现金 = type=cron,cronexp=2 0-23/4 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/lesong/jdtack/main/jd_cash.js
-京喜财富岛 = type=cron,cronexp=5 * * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/lesong/jdtack/main/jd_cfd.js
+签到领现金 = type=cron,cronexp="2 0-23/4 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/lesong/jdtack/main/jd_cash.js
+京喜财富岛 = type=cron,cronexp="5 * * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/lesong/jdtack/main/jd_cfd.js
+京喜财富岛提现 = type=cron,cronexp="59 11,12,23 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/lesong/jdtack/main/jd_cfdtx.js
 摇京豆 = type=cron,cronexp="5 0,23 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/lesong/jdtack/main/jd_club_lottery.js
 天天提鹅 = type=cron,cronexp=10 * * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/lesong/jdtack/main/jd_daily_egg.js
 每日抽奖 = type=cron,cronexp="13 1,22,23 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/lesong/jdtack/main/jd_lotteryMachine.js
@@ -54,7 +58,6 @@
 特物Z|万物皆可国创 = type=cron,cronexp=30 11 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/eicky/jd_scripts/master/jd_superBrand.js
 京小兑 = type=cron,cronexp="40 8,16,20 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/lesong/jdtack/main/jd_jxd.js
 领现金兑换红包 = type=cron,cronexp="0,1,2 0 * * *",wake-system=1,timeout=120,script-path=https://raw.githubusercontent.com/lesong/jdtack/main/jd_cash_exchange.js
-京喜财富岛提现 = type=cron,cronexp="59 11,12,23 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/lesong/jdtack/main/jd_cfdtx.js
 京点点券 = type=cron,cronexp="20 0,20 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/smiek2221/scripts/master/jd_necklace.js
 京东保价 = type=cron,cronexp=0 2 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/lesong/jdtack/main/jd_price.js
 愤怒的锦鲤 = type=cron,cronexp=0 0 * * *,wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/cdle/jd_study/main/jd_angryKoi.js
