@@ -2,12 +2,10 @@
 #!desc=京东自动化脚本
 #!system=ios
 [Script]
-京东月资产变动通知 = type=cron,cronexp="20 9 * * *",wake-system=1,timeout=3600,script-path=https://gitee.com/zhaozhanzhan520/jd_docker/tree/master/jd_bean_month_change.js
-京东日资产变动通知 = type=cron,cronexp="20 8 * * *",wake-system=1,timeout=3600,script-path=https://gitee.com/zhaozhanzhan520/jd_docker/tree/master/jd_bean_day_change.js
+京东资产变动通知 = type=cron,cronexp="20 9 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_bean_change.js
 京东多合一签到 = type=cron,cronexp="5 0 * * *",wake-system=1,timeout=60,script-path=https://gitee.com/zhaozhanzhan520/jd_docker/blob/master/JD_DailyBonus.js
 获取京东Cookie = type=http-request,pattern=https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
 京喜签到 = type=cron,cronexp="20 1 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jx_sign.js
-领京豆额外奖励 = type=cron,cronexp="10 7 * * *",wake-system=1,timeout=3600,script-path=https://gitee.com/zhaozhanzhan520/jd_docker/tree/master/jd_bean_home.js
 省钱大赢家之翻翻乐 = type=cron,cronexp="20 * * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_big_winner.js
 东东超市兑换奖品 = type=cron,cronexp="59 23 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_blueCoin.js
 口袋书店 = type=cron,cronexp="1 8,12,18 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/Tsukasa007/my_script/master/chinnkarahoi_jd_bookshop.js
@@ -20,11 +18,7 @@
 摇京豆 = type=cron,cronexp="5 0,23 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_club_lottery.js
 天天提鹅 = type=cron,cronexp="10 * * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_daily_egg.js
 每日抽奖 = type=cron,cronexp="13 1,22,23 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_lotteryMachine.js
-京喜工厂 = type=cron,cronexp="10 * * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_dreamFactory.js
-京东家庭号 = type=cron,cronexp="1 * * * *",wake-system=1,timeout=2220,script-path=https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_family.js
 东东农场 = type=cron,cronexp="5 6-18/6 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_fruit.js
-获取互助码 = type=cron,cronexp="20 13 * * 6",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_get_share_code.js
-金榜创造营 = type=cron,cronexp="13 1,22 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_gold_creator.js
 健康社区-收能量 = type=cron,cronexp="25 * * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_z_health_energy.js
 东东工厂 = type=cron,cronexp="10 * * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_jdfactory.js
 京东赚赚 = type=cron,cronexp="10 0 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_jdzz.js
@@ -56,7 +50,6 @@
 汪汪乐园养joy = type=cron,cronexp="20 0-23/3 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/Tsukasa007/my_script/master/jd_joypark_joy.js
 汪汪乐园每日任务 = type=cron,cronexp="20 7,9,17,20 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/Tsukasa007/my_script/master/jd_joypark_task.js
 特物Z|万物皆可国创 = type=cron,cronexp="30 11 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/eicky/jd_scripts/master/jd_superBrand.js
-京小兑 = type=cron,cronexp="40 8,16,20 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_jxd.js
 领现金兑换红包 = type=cron,cronexp="0,1,2 0 * * *",wake-system=1,timeout=120,script-path=https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_cash_exchange.js
 京点点券 = type=cron,cronexp="20 0,20 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/smiek2221/scripts/master/jd_necklace.js
 京东保价 = type=cron,cronexp="0 2 * * *",wake-system=1,timeout=3600,script-path=https://gitee.com/zhaozhanzhan520/jd_docker/blob/master/jd_price.js
@@ -66,7 +59,6 @@
 店铺签到 = type=cron,cronexp="0 2 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_dpqd.js
 喜牧场助力版 = type=cron,cronexp="0 * * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_mczlb.js
 京东物流派件提醒 = type=cron,cronexp="0 12 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_pjtx.js
-京东删除优惠券 = type=cron,cronexp="11 0 * * 1",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_delCoupon.js
 粉丝互动 = type=cron,cronexp="1 8 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_wxFans.js
 注销店铺会员卡 = type=cron,cronexp="0 9 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/linxi915/shuyuan/shuyuan/Quantumult_X/JD_zxhy.js
 柠檬推一推 = type=cron,cronexp="0 6-23/4 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_tyt.js
@@ -75,16 +67,12 @@
 惊喜牧场 = type=cron,cronexp="20 0-23/3 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_jxmc.js
 京东零食街 = type=cron,cronexp="1 0 11 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_lsj.js
 全民运动会守卫红包 = type=cron,cronexp="10 10 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/cdle/jd_study/main/disposable/jd_olympicgames_guard.js
-京东试用 = type=cron,cronexp="30 10 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/JDWXX/JD/main/jd_try.js
+京东试用 = type=cron,cronexp="30 10 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_try.js
 MM领京豆 = type=cron,cronexp="21 9 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/smiek2221/scripts/master/gua_MMdou.js
 财富大陆 = type=cron,cronexp="18 0-23/2 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/smiek2221/scripts/master/gua_wealth_island.js
 财富大陆互助 = type=cron,cronexp="18 0,1,9,14,18 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/smiek2221/scripts/master/gua_wealth_island_help.js
 京东历史价格查询 = type=http-response,pattern=^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_price/main/jd_price.js
 京粉转链 = type=http-response,pattern=^https?://api\.m\.jd\.com/(client\.action|api)\?functionId=(wareBusiness|serverConfig|basicConfig|lite_wareBusiness|pingou_item),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/githubdulong/Script/master/jfConvert.js,use-local-host-item-for-proxy = true
-激扬奥运8.8 = type=cron,cronexp="50 0,6,10 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/Tsukasa007/my_script/master/jd_olympic_opencard.js
-奥运夺金挑战赛8.9 = type=cron,cronexp="50 0 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/Tsukasa007/my_script/master/jd_olympic_win_gold.js
-定格夺冠 = type=cron,cronexp="50 0,10 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/Tsukasa007/my_script/master/jd_opencard_championship.js
-食力全开8.15 = type=cron,cronexp="1 1,11 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/Tsukasa007/my_script/master/jd_opencard_eat_open_opencard.js
 [MITM]
 hostname = %APPEND% api.m.jd.com, draw.jdfcloud.com, jdjoy.jd.com
 
