@@ -58,7 +58,7 @@
 特物Z|万物皆可国创 = type=cron,cronexp="30 11 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/eicky/jd_scripts/master/jd_superBrand.js
 领现金兑换红包 = type=cron,cronexp="0,1,2 0 * * *",wake-system=1,timeout=120,script-path=https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_cash_exchange.js
 京点点券 = type=cron,cronexp="20 0,20 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/smiek2221/scripts/master/jd_necklace.js
-京东保价 = type=cron,cronexp="0 2 * * *",wake-system=1,timeout=3600,script-path=https://gitee.com/zhaozhanzhan520/jd_docker/blob/master/jd_price.js
+京东保价 = type=cron,cronexp="30 23 * * 0",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/task/jdGuaranteedPrice.js
 柠檬京东零食街 = type=cron,cronexp="11 * * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_lsj.js
 东东乐园 = type=cron,cronexp="30 7 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_ddly.js
 汪汪乐园开工位 = type=cron,cronexp="20 9 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/Tsukasa007/my_script/master/jd_joypark_open.js
