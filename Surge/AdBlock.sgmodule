@@ -1,0 +1,270 @@
+#!name=广告屏蔽
+#!desc=最后更新时间 2021-09-07 02:07:47
+
+[General]
+force-http-engine-hosts = %APPEND% *.cp31.ott.cibntv.net
+
+[Rule]
+# 百度输入法
+DOMAIN-KEYWORD,jomodns,REJECT
+DOMAIN,res.mi.baidu.com,REJECT
+DOMAIN,r6.mo.baidu.com,REJECT
+URL-REGEX,^https:\/\/mime\.baidu\.com\/v5\/activity\/advertisementnonrealtime,REJECT
+URL-REGEX,^https:\/\/mime\.baidu\.com\/v5\/start_screen_ads\/list,REJECT
+URL-REGEX,^https:\/\/mime\.baidu\.com\/v5\/hotpatch\/check\?hotpatch,REJECT
+
+# QQ音乐去广告
+DOMAIN,adstats.tencentmusic.com,REJECT
+DOMAIN,ad.tencentmusic.com,REJECT
+DOMAIN,adcdn.tencentmusic.com,REJECT
+DOMAIN,adexpo.tencentmusic.com,REJECT
+DOMAIN,adclick.tencentmusic.com,REJECT
+DOMAIN,p.l.qq.com,REJECT
+DOMAIN,sdk.e.qq.com,REJECT
+DOMAIN,pgdt.gtimg.cn,REJECT
+DOMAIN,oth.bls.mdt.qq.com,REJECT
+DOMAIN,oth.str.mdt.qq.com,REJECT
+DOMAIN-SUFFIX,beacon.qq.com,REJECT
+DOMAIN-SUFFIX,sngdia.imtmp.net,REJECT
+DOMAIN-SUFFIX,ivapp.net,REJECT
+
+# QQ空间
+DOMAIN,d3g.qq.com,REJECT
+DOMAIN,bsrv.qq.com,REJECT
+DOMAIN,sq.bls.mdt.qq.com,REJECT
+DOMAIN,adsmind.gdtimg.com,REJECT
+DOMAIN,xj-landing.gdtimg.com,REJECT
+
+# 知乎
+DOMAIN,118.89.204.198,REJECT
+DOMAIN-KEYWORD,118.89.204.198,REJECT
+IP-CIDR,118.89.204.198/32,REJECT
+DOMAIN,appcloud2.in.zhihu.com,REJECT
+USER-AGENT,AVOS*,REJECT
+DOMAIN,mqtt.zhihu.com,REJECT
+DOMAIN,sugar.zhihu.com,REJECT
+URL-REGEX,^https?:\/\/api\.zhihu\.com\/brand\/question\/\d+/card\?,REJECT
+URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v4\/answers\/\d+\/recommendations,REJECT
+URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\?,REJECT
+URL-REGEX,^https?:\/\/www\.zhihu\.com\/appview\/(p|v2\/answer|zvideo)\/.*entry=(preload-topstory|preload-search|preload-subscription),REJECT
+URL-REGEX,^https?:\/\/api\.zhihu\.com/moments/hybrid\?,REJECT-TINYGIF
+URL-REGEX,^https?:\/\/www\.zhihu\.com\/commercial_api\/banners_v3\/mobile_banner,REJECT-TINYGIF
+URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v4\/hot_recommendation,REJECT-TINYGIF
+URL-REGEX,^https?:\/\/www\.zhihu\.com\/api\/v4/(questions|anwsers)\/\d+/related-readings,REJECT-TINYGIF
+URL-REGEX,^https?:\/\/api\.zhihu\.com\/moments\/recent,REJECT-TINYGIF
+URL-REGEX,^https?:\/\/zhuanlan\.zhihu\.com\/api\/articles\/\d+\/recommendation,REJECT-TINYGIF
+
+# 有兔阅读
+DOMAIN,app.zhoudamozi.com,DIRECT
+DOMAIN-SUFFIX,youzibank.com,DIRECT
+DOMAIN-SUFFIX,mituyuedu.com,DIRECT
+DOMAIN,img.allahall.com,DIRECT
+DOMAIN,img.dailmo.com,DIRECT
+DOMAIN,activation.crossutility.com,DIRECT
+
+# 书旗广告域名,这广告实在太多了，可能误杀，不认识的全禁止了
+DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT
+DOMAIN-SUFFIX,xwuad.com,REJECT
+DOMAIN-SUFFIX,tobapplog.ctobsnssdk.com,REJECT
+DOMAIN-SUFFIX,render.shuqireader.com,REJECT
+DOMAIN-SUFFIX,ali-stats.jpush.cn,REJECT
+DOMAIN-SUFFIX,toblog.ctobsnssdk.com,REJECT
+DOMAIN-SUFFIX,sdk.kaijia.com,REJECT
+DOMAIN-SUFFIX,tobapplog.ctobsnssdk.com,REJECT
+DOMAIN-SUFFIX,amdc.m.taobao.com,REJECT
+DOMAIN-SUFFIX,iyes.youku.com,REJECT
+DOMAIN-SUFFIX,sq.sljkj.com,REJECT
+DOMAIN-SUFFIX,s2s.adjust.com,REJECT
+DOMAIN-SUFFIX,pglstatp-toutiao,REJECT
+# 百度移动广告联盟，可能误杀
+DOMAIN-SUFFIX,mobads.baidu.com,REJECT
+# 腾讯广告联盟，可能误杀
+DOMAIN-SUFFIX,mi.gdt.qq.com,REJECT
+DOMAIN-SUFFIX,jcollection.shuqireader.com,REJECT
+DOMAIN-SUFFIX,stats.jpush.cn,REJECT
+DOMAIN-SUFFIX,sdk.kaijiawan.com,REJECT
+
+# 腾讯视频
+DOMAIN-SUFFIX,tetrack.qq.com,REJECT
+DOMAIN-SUFFIX,tpns.tencent.com,REJECT
+DOMAIN-SUFFIX,api.poll.video.qq.com,REJECT
+DOMAIN-SUFFIX,static-res.qq.com,REJECT
+DOMAIN-SUFFIX,stat.tpns.tencent.com,REJECT
+DOMAIN,h.trace.qq.com,REJECT
+# 爱奇艺
+DOMAIN,cr-status.iqiyi.com,REJECT
+DOMAIN,f74f7f7765f8a2f6.ngaa.net.cn,REJECT
+DOMAIN,ef-dongfeng.tanx.com,REJECT
+DOMAIN,iqiyim.adtrack.enlightent.cn,REJECT
+DOMAIN,t7z.cupid.iqiyi.com,DIRECT
+DOMAIN,paopao-monitor.iqiyi.com,REJECT
+DOMAIN,puma-api.iqiyi.com,REJECT
+DOMAIN-SUFFIX,gdt.qq.com,REJECT
+DOMAIN-SUFFIX,upqzfile.com,REJECT
+DOMAIN,mbdlog.iqiyi.com,REJECT
+DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
+DOMAIN,myg.qy.net,REJECT
+DOMAIN,www.qchannel01.cn,REJECT
+DOMAIN,iqiyi-mipdx.cn.miaozhen.com,REJECT
+DOMAIN,show.ssports.com,REJECT
+DOMAIN-SUFFIX,afdback.ppsimg.com,REJECT
+#米读
+URL-REGEX,^https:\/\/apiwz\.midukanshu\.com\/advert\/getPopup$,REJECT
+URL-REGEX,^https:\/\/apiwz\.midukanshu\.com\/advert\/treasureInfo$,REJECT
+URL-REGEX,^https:\/\/apiwz\.midukanshu\.com\/config\/getAds$,REJECT
+DOMAIN,bid.adview.cn,REJECT
+
+
+# 京东开屏广告屏蔽
+URL-REGEX,https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$,REJECT-TINYGIF
+
+
+# 优酷去片头广告(by Choler)
+# force-http-engine-hosts = %APPEND% *.cp31.ott.cibntv.net
+URL-REGEX,^http:\/\/.*\.cp31\.ott\.cibntv\.net\/youku\/,REJECT-TINYGIF
+
+# 高德地图
+DOMAIN,optimus-ads.amap.com,REJECT
+
+[URL Rewrite]
+# 百度地图开屏广告
+^https:\/\/dss0\.bdstatic\.com\/.+/tam-ogel\/.+\.jpg _ reject
+# 百度网盘广告屏蔽
+http:\/\/rp\.hpplay\.cn\/logouts _ reject
+https:\/\/pan\.baidu\.com\/pmall\/order\/privilege\/info _ reject
+https:\/\/pan\.baidu\.com\/rest\/.+\/pcs\/adx _ reject
+https:\/\/pan\.baidu\.com\/api\/useractivity\/activity _ reject
+https?:\/\/pan\.baidu\.com\/act\/.+\/bchannel\/list _ reject
+https:\/\/sofire\.baidu\.com\/ios\/.+ _ reject
+https:\/\/ndstatic\.cdn\.bcebos\.com\/activity\/welfare\/js\/.+\.js _ reject
+https:\/\/ndstatic\.cdn\.bcebos\.com\/activity\/welfare\/index\.html _ reject
+https:\/\/pan\.baidu\.com\/pmall\/order\/privilege\/info _ reject
+https:\/\/staticsns\.cdn\.bcebos\.com\/amis\/.+/banner.png _ reject
+https:\/\/issuecdn\.baidupcs\.com\/issue\/netdisk\/ts_ad\/ - reject
+https:\/\/pan\.baidu\.com\/rest\/2.0\/pcs\/adv\? - reject
+https:\/\/pan\.baidu\.com\/component\/view\/(1510|1130)\?(vip|from) - reject
+
+# 百度贴吧(TributePaulWalker搬运)->*.tieba.baidu.com,feed-image.baidu.com
+^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/splashSchedule - reject
+^https?:\/\/c\.tieba\.baidu\.com\/c\/f\/forum\/getAdInfo - reject
+^https?:\/\/c\.tieba\.baidu\.com\/\w+\/\w+\/(sync|newRnSync|mlog) - reject
+^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/\w+\/\w+\/(sync|newRnSync|mlog) - reject
+^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/c\/s\/splashSchedule - reject
+# mine
+^https:\/\/pn\.baidu\.com\/iad\/.+\.json - reject
+^https:\/\/feed-image\.baidu\.com\/0\/pic\/ - reject
+^http:\/\/.+\/c\/s\/(trackConfig|dashengVideo|splashSchedule) - reject
+
+# QQ空间
+^http:\/\/(rpt|v|c)\.gdt\.qq\.com\/(creative_view|gdt_stats|gdt_clickwap)\/.+ - reject
+^http:\/\/pgdt\.gtimg\.cn\/gdt\/.+ - reject
+^http:\/\/pgdt\.gtimg\.cn\/.+\/snscosdownload\/SH\/reserved\/.+ - reject
+
+# 有兔阅读(米兔)去羞耻的开屏广告图片
+^http:\/\/img\.dailmo\.com\/img\/61\/23c7125bfe6166d69f3bff5b0ca4d31e\.jpg - reject
+^http:\/\/img\.dailmo\.com\/img\/50\/edb40c6392f848df37f9c31d8a6f90f6\.jpg - reject
+^http:\/\/img\.dailmo\.com\/img\/6\/90585d9e96c73dd49644af57d8501624\.jpg - reject
+^http:\/\/img\.dailmo\.com\/img\/5\/6cb2aa237ce1f65944aa1ecb29fbdeef\.jpg - reject
+^http:\/\/img\.allahall\.com\/img\/61\/23c7125bfe6166d69f3bff5b0ca4d31e\.jpg - reject
+^http:\/\/img\.allahall\.com\/img\/50\/edb40c6392f848df37f9c31d8a6f90f6\.jpg - reject
+^http:\/\/img\.allahall\.com\/img\/6\/90585d9e96c73dd49644af57d8501624\.jpg - reject
+^http:\/\/img\.allahall\.com\/img\/5\/6cb2aa237ce1f65944aa1ecb29fbdeef\.jpg - reject
+^http:\/\/img\.allahall\.com\/img\/59\/6a13a75dfe46ebfdac96bd27ef098885\.jpg - reject
+^https?:\/\/img\.alipaycashyuan\.com\/img\/59\/6a13a75dfe46ebfdac96bd27ef098885\.+ - reject
+^http:\/\/app\.zhoudamozi\.com\/ad\/.+ - reject
+
+# Safari 禁止知乎跳转 App  (by blankmagic)
+^https?://link\.zhihu\.com/\?target=https?%3A//(.*) https://$1 302
+^https?://oia\.zhihu\.com https://zhuanlan.zhihu.com 302
+
+# YouTube去广告 -> *.googlevideo.com,s.youtube.com,www.youtube.com
+^https?:\/\/[\w-]+\.googlevideo\.com\/((?!(dclk_video_ads|videoplayback)).)+&(oad|ctier) - reject
+ctier=(?!SH)[\w-] citer=A 302
+^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads - reject
+^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking) - reject
+^https?:\/\/\s.youtube.com/api/stats/qoe?.*adformat= - reject
+
+# 书旗小说去广告
+^http:\/\/ut2\.shuqistat\.com\/.+\.gif - reject
+^https?:\/\/sq\.sljkj\.com\/api\/sdk\/ads2 - reject
+^https?:\/\/ocean\.shuqireader\.com\/api\/ad\/adserver\/.+ - reject
+^https?:\/\/ocean\.shuqireader\.com\/api\/route\/iosReadPage\/ad.+ - reject
+^https?:\/\/img-tailor\.11222\.cn\/pm\/app\/.+\.gif - reject
+^https?:\/\/img-tailor\.11222\.cn\/cms\/upload\/img\/.+ - reject
+^http:\/\/message\.shuqireader\.com\/message\/.+ - reject
+^https?:\/\/mobads\.baidu\.com\/cpro\/ui\/mads.+ - reject
+^http:\/\/101\.91\.69\.26:8080\/.+ - reject
+^http:\/\/feedback.uc.cn\/feedback\/api\/get_unread_status - reject
+^http:\/\/.+\.shuqireader\.com\/sapi\/.+ - reject
+
+
+# 每日优鲜开屏广告->j-image.missfresh.cn
+^https:\/\/j-image\.missfresh\.cn\/img_(.+)\.gif$ - reject
+^https:\/\/j-image\.missfresh\.cn\/img_(.+)\.(jpg|jpeg|gif|png)\?iopcmd=convert&dst=webp&q=85$ - reject
+
+# 网易云广告->m.ads.8le8le.com,iadmusicmat.music.com
+^https?:\/\/iadmusicmat\.music\.126\.net\/.+\.jpg - reject
+^http:\/\/interface\.music\.163\.com\/eapi\/ad\/config\/get - reject
+^https?:\//m\.ads\.8le8le\.com\/adShow - reject
+
+# 高德地图广告
+^http:\/\/ems\.youku\.com\/imp\? - reject
+^http:\/\/optimus-ads\.amap\.com\/uploadimg\/.+ - reject
+# 携程广告->ma-adx.ctrip.com,m.ctrip.com
+^https:\/\/ma-adx\.ctrip\.com\/_ma\.gif - reject
+^https:\/\/m\.ctrip\.com\/restapi\/.+\/json\/tripAds - reject
+^https:\/\/m\.ctrip\.com\/html5\/webresource\/js\/iscroll\.js$,REJECT
+
+^https:\/\/mbd\.baidu\.com\/newspage\/api\/getmobads\?page\=landingshare - reject
+
+# 腾讯视频广告屏蔽
+^http:\/\/video\.dispatch\.tc\.qq\.com\/.+\.mp4 - reject
+^http:\/\/.+\/vmind\.qqvideo\.tc\.qq\.com\/.+\.mp4 - reject
+^http:\/\/wa\.gtimg\.com\/adxcdn\/.+\.jpg - reject
+# 爱奇艺广告屏蔽
+^http:\/\/.+\.iqiyipic\.com\/image\/.+\/ad\/.+\.jpg - reject
+^http:\/\/static-s\.iqiyi\.com\/common\/.+\/Small_video/a2/af/.+\.png - reject
+^http://msga/.cupid/.iqiyi/.com\/scp2\.gif - reject
+https?:\/\/ssports\.iqiyi\.com\/app\/ - reject
+https?:\/\/ssports\.iqiyi\.com\/json\/shop\/shopInfo  - reject
+https?:\/\/.+\.iqiyi\.com\/videos\/other\/20$ - reject
+https?:\/\/.+\.iqiyipic\.com\/image\/20*_100000 - reject
+#https?:\/\/static\.iqiyi\.com\/js\/common\/.+\.js - reject
+https?:\/\/t7z\.cupid\.iqiyi\.com\/show - reject
+# 搬运爱奇艺(by gitee-木剑)->act.vip.iqiyi.com
+^https?:\/\/iface\.iqiyi\.com\/api\/getNewAdInfo - reject
+^https?:\/\/act\.vip\.iqiyi\.com\/interact\/api\/show\.do - reject
+^https?:\/\/act\.vip\.iqiyi\.com\/interact\/api\/v\d\/show - reject
+
+# 网易邮箱->appconf.mail.163.com,analytics.163.com
+https:\/\/appconf\.mail\.163\.com\/mmad\/get\.do - reject
+http:\/\/analytics\.163\.com\/ntes - reject
+
+
+# 搬运淘宝(by gitee-木剑)->gw.alicdn.com,heic.alicdn.com
+^https?:\/\/(gw|heic)\.alicdn\.com\/\w{2}s\/.+\.jpg_(9\d{2}|\d{4}) - reject
+^https?:\/\/(gw|heic)\.alicdn\.com\/imgextra\/.+\d{4}-\d{4}\.jpg_(9\d{2}|\d{4}) - reject
+
+[Map Local]
+# 知乎其他广告拦截
+^https?:\/\/api\.zhihu\.com\/(notifications\/v\d\/count|v\d\/package|me\/guides|drama\/living-info|ad|fringe|commercial|market\/popovers|.*featured-comment-ad) data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
+
+[Script]
+# 微信公众号广告屏蔽(By Choler)
+微信公众号广告屏蔽=type=http-response,pattern=^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad,requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js
+# 微博广告屏蔽(by yichahucha)
+http-response ^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua) requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/wb_launch.js
+http-response ^https?://m?api\.weibo\.c(n|om)/2/(statuses/(unread|extend|positives/get|(friends|video)(/|_)(mix)?timeline)|stories/(video_stream|home_list)|(groups|fangle)/timeline|profile/statuses|comments/build_comments|photo/recommend_list|service/picfeed|searchall|cardlist|page|!/(photos/pic_recommend_status|live/media_homelist)|video/tiny_stream_video_list|photo/info|remind/unread_count) requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/wb_ad.js
+知乎_处理用户信息 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.zhihu\.com\/people\/,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.js
+知乎_信息流去广告 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.zhihu\.com\/(moments|topstory)(\/|\?)?(recommend|action=|feed_type=)(?!\/people),script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.js
+知乎_官方消息去广告 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.zhihu\.com\/notifications\/v3\/(message|timeline\/entry\/system_message),script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.js
+知乎_预置关键词去广告 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.zhihu\.com\/search\/preset_words\?,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.js
+知乎_回答内容优化 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/www\.zhihu\.com\/appview\/v2\/answer\/.*(entry=(?!(preload-topstory|preload-search|preload-subscription)))?,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.js
+知乎_优化软件配置 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/appcloud2\.zhihu\.com\/v\d+\/config,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.js
+知乎_热搜去广告 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.zhihu\.com\/search\/top_search\/tabs\/hot\/items,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.js
+知乎_热榜去广告 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.zhihu\.com\/topstory\/hot-lists?(\?|\/),script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.js
+知乎_评论去广告 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.zhihu\.com\/(comment_v5\/)?(answers|comments?|articles|pins)\/\d+\/(root_|child_)?comments?,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.js
+知乎_解锁关键词屏蔽 = type=http-request,requires-body=1,max-size=0,pattern=^https?:\/\/api\.zhihu\.com\/feed-root\/block,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.js
+QQ音乐去广告 = type=http-response,pattern=https:\/\/us\.l\.qq\.com\/exapp,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/QmusicAdBlock/QMusicAd.js,script-update-interval=0
+[MITM]
+hostname = %APPEND% appconf.mail.163.com,analytics.163.com,api.weibo.cn,mapi.weibo.com,*.uve.weibo.com,mbd.baidu.com,m.ads.8le8le.com,iadmusicmat.music.com,ma-adx.ctrip.com,m.ctrip.com,api.m.jd.com,mp.weixin.qq.com,ocean.shuqireader.com,mi.gdt.qq.com,mobads.baidu.com,sq.sljkj.com,img-tailor.11222.cn,j-image.missfresh.cn,act.vip.iqiyi.com, gw.alicdn.com, heic.alicdn.com,apiwz.midukanshu.com,*.iqiyipic.com, *.iqiyi.com,*.googlevideo.com,s.youtube.com,www.youtube.com,api.zhihu.com,appcloud2.zhihu.com,www.zhihu.com,zhuanlan.zhihu.com,link.zhihu.com,oia.zhihu.com,us.l.qq.com,ndstatic.cdn.bcebos.com,staticsns.cdn.bcebos.com,issuecdn.baidupcs.com,dss0.bdstatic.com,*.baidu.com,-imerres.baidu.com

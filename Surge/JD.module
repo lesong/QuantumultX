@@ -186,7 +186,5 @@
 
 # >>> 财富岛提现 {00:00}
 京喜财富岛提现 = type=cron,cronexp=”0 0 * * *“,wake-system=1,timeout=20,script-path=https://ghproxy.com/https://raw.githubusercontent.com/ztxtop/x/aa4ddeca813fbf5c231dd4adaec68a7632cb292c/jx_cfdtx.js
-京喜财富岛提现 = type=cron,cronexp=”0 0 * * *“,wake-system=1,timeout=20,script-path= https://qxzy.top/rules/QuantumultX/js/zwf234/jx_cfdtx.js
-
 [MITM]
 hostname = %APPEND% api.m.jd.com, jdjoy.jd.com, draw.jdfcloud.com, wq.jd.com, m.jingxi.com
