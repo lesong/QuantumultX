@@ -1,6 +1,6 @@
 #!name=京东领豆任务合集 自用
 #!desc=该模块收集并整理了当前所有关于 “京东” 相关的脚本
-#!data=20210907
+#!data=20210924
 
 [Script]
 # > 获取京东Cookie 
@@ -104,6 +104,11 @@
 # >>> 领券中心签到
 领券中心签到 = type=cron,cronexp="15 0 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_ccSign.js
 
+# >>> 内容鉴赏官
+内容鉴赏官 = type=cron,cronexp="15 3,6 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_connoisseur.js
+
+# >>> 东东世界
+东东世界 = type=cron,cronexp="15 3,9 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_ddworld.js
 
 # >>> 京东删除优惠券
 京东删除优惠券 = type=cron,cronexp="10 3,20 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_delCoupon.js
@@ -124,7 +129,7 @@
 京喜财富岛 = type=cron,cronexp="5 * * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_cfd.js
 
 # >>> 京东试用
-京东试用 = type=cron,cronexp="30 10 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_try.js
+京东试用 = type=cron,cronexp="30 10 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_try.js
 
 # >>> 起早福利
 起早福利 = type=cron,cronexp="30 6 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/alonz09/klljd/main/jd_zqfl.js
