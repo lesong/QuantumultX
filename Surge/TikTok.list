@@ -1,9 +1,0 @@
-# NAME: TikTok 海外版分流
-# AUTHOR: lesong
-# UPDATED: 2021-08-23 09:41:05
-USER-AGENT,TikTok*
-DOMAIN-SUFFIX,muscdn.com
-DOMAIN-SUFFIX,musical.ly
-DOMAIN-SUFFIX,tiktokv.com
-DOMAIN-SUFFIX,tiktokcdn.com
-DOMAIN-KEYWORD,-tiktokcdn-com
