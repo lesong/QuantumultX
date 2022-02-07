@@ -1,0 +1,377 @@
+# Unbreak
+DOMAIN,app.adjust.com,DIRECT
+
+DOMAIN,bdtj.tagtic.cn,DIRECT
+
+DOMAIN,log.mmstat.com,DIRECT
+DOMAIN,sycm.mmstat.com,DIRECT
+
+DOMAIN,analytics.strava.com,DIRECT
+# > Tencent
+DOMAIN,fairplay.l.qq.com,DIRECT
+DOMAIN,livew.l.qq.com,DIRECT
+DOMAIN,vd.l.qq.com,DIRECT
+
+DOMAIN,msg.umeng.com,DIRECT
+DOMAIN,msg.umengcloud.com,DIRECT
+
+# Direct
+DOMAIN,images-cn.ssl-images-amazon.com,DIRECT
+
+DOMAIN,nrch.culture.tw,DIRECT
+
+# >> Paramount+
+DOMAIN,pubads.g.doubleclick.net,DIRECT
+
+# Google
+DOMAIN-SUFFIX,app-measurement.com,DIRECT
+DOMAIN-SUFFIX,recaptcha.net,DIRECT
+
+DOMAIN,gtm.oasisfeng.com,DIRECT
+
+DOMAIN,checkin.gstatic.com,DIRECT
+DOMAIN,connectivitycheck.gstatic.com,DIRECT
+DOMAIN,csi.gstatic.com,DIRECT
+DOMAIN,fonts.gstatic.com,DIRECT
+DOMAIN,ssl.gstatic.com,DIRECT
+DOMAIN,www.gstatic.com,DIRECT
+
+DOMAIN,redirector.gvt1.com,DIRECT
+DOMAIN,beacons.gcp.gvt2.com,DIRECT
+DOMAIN,beacons.gvt2.com,DIRECT
+DOMAIN,beacons2.gvt2.com,DIRECT
+DOMAIN,beacons3.gvt2.com,DIRECT
+
+DOMAIN,crl.pki.goog,DIRECT
+DOMAIN,ocsp.pki.goog,DIRECT
+
+DOMAIN,translate.google.cn,DIRECT
+
+DOMAIN,c.android.clients.google.com,DIRECT
+DOMAIN,cache.pack.google.com,DIRECT
+DOMAIN,corp.google.com,DIRECT
+DOMAIN,dl.l.google.com,DIRECT
+DOMAIN,dl.google.com,DIRECT
+
+DOMAIN,pagead-googlehosted.l.google.com,DIRECT
+DOMAIN,safebrowsing-cache.google.com,DIRECT
+DOMAIN,ssl-google-analytics.l.google.com,DIRECT
+DOMAIN,toolbarqueries.google.com,DIRECT
+DOMAIN,tools.google.com,DIRECT
+DOMAIN,tools.l.google.com,DIRECT
+DOMAIN,www-googletagmanager.l.google.com,DIRECT
+
+DOMAIN,clientservices.googleapis.com,DIRECT
+DOMAIN,fonts.googleapis.com,DIRECT
+DOMAIN,imasdk.googleapis.com,DIRECT
+DOMAIN,safebrowsing.googleapis.com,DIRECT
+DOMAIN,translate.googleapis.com,DIRECT
+DOMAIN,update.googleapis.com,DIRECT
+
+DOMAIN-SUFFIX,googleanalytics.com,DIRECT
+DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
+
+# ultramobile
+DOMAIN-SUFFIX,launchdarkly.com,🇺🇸 美国
+DOMAIN-SUFFIX,ultramobile.com,🇺🇸 美国
+DOMAIN-SUFFIX,amplitude.com,🇺🇸 美国
+
+# Apple
+DOMAIN,lookup-api.apple.com,♻️ 自动选择
+DOMAIN,testflight.apple.com,♻️ 自动选择
+DOMAIN-SUFFIX,apple.comscoreresearch.com,♻️ 自动选择
+DOMAIN-SUFFIX,smoot.apple.com,♻️ 自动选择
+DOMAIN-SUFFIX,safebrowsing.apple,♻️ 自动选择
+
+
+# > iOS updates
+DOMAIN,appldnld.apple.com,DIRECT
+DOMAIN,ns.itunes.apple.com,DIRECT
+# > iOS, tvOS, and macOS
+DOMAIN,mesu.apple.com,REJECT
+DOMAIN,updates.cdn-apple.com,REJECT
+DOMAIN,updates-http.cdn-apple.com,REJECT
+DOMAIN,xp.apple.com,REJECT
+DOMAIN,gdmf.apple.com,REJECT
+
+DOMAIN-SUFFIX,icloud.com,DIRECT
+DOMAIN-SUFFIX,icloud-content.com,DIRECT
+
+DOMAIN-SUFFIX,aaplimg.com,🍎 苹果服务
+DOMAIN-SUFFIX,akadns.net,🍎 苹果服务
+DOMAIN-SUFFIX,akamaiedge.net,🍎 苹果服务
+DOMAIN-SUFFIX,🍎 苹果服务.co,🍎 苹果服务
+DOMAIN-SUFFIX,🍎 苹果服务.com,🍎 苹果服务
+DOMAIN-SUFFIX,🍎 苹果服务.com.cn,🍎 苹果服务
+DOMAIN-SUFFIX,🍎 苹果服务-cloudkit.com,🍎 苹果服务
+DOMAIN-SUFFIX,🍎 苹果服务-mapkit.com,🍎 苹果服务
+DOMAIN-SUFFIX,appsto.re,🍎 苹果服务
+DOMAIN-SUFFIX,appstore.com,🍎 苹果服务
+DOMAIN-SUFFIX,cdn20.com,🍎 苹果服务
+DOMAIN-SUFFIX,cdn-🍎 苹果服务.com,🍎 苹果服务
+DOMAIN-SUFFIX,crashlytics.com,🍎 苹果服务
+DOMAIN-SUFFIX,edgekey.net,🍎 苹果服务
+DOMAIN-SUFFIX,itunes.com,🍎 苹果服务
+DOMAIN-SUFFIX,me.com,🍎 苹果服务
+DOMAIN-SUFFIX,mwcloudcdn.com,🍎 苹果服务
+DOMAIN-SUFFIX,mwcname.com,🍎 苹果服务
+DOMAIN-SUFFIX,mzstatic.com,🍎 苹果服务
+
+# Ⓜ️ 微软
+# https://docs.Ⓜ️ 微软.com/en-us/office365/enterprise/urls-and-ip-address-ranges
+
+DOMAIN,jdsharedresourcescdn.azureedge.net,♻️ 自动选择
+DOMAIN,outlook.office365.com,♻️ 自动选择
+DOMAIN,www.bing.com,♻️ 自动选择
+DOMAIN-SUFFIX,hk.msn.com,🇭🇰 香港
+DOMAIN-SUFFIX,msn.com.tw,🇨🇳 台湾
+
+DOMAIN-SUFFIX,1drv.com,Ⓜ️ 微软
+DOMAIN-SUFFIX,aadrm.com,Ⓜ️ 微软
+DOMAIN-SUFFIX,acompli.com,Ⓜ️ 微软
+DOMAIN-SUFFIX,acompli.net,Ⓜ️ 微软
+DOMAIN-SUFFIX,aka.ms,Ⓜ️ 微软
+DOMAIN-SUFFIX,appcenter.ms,Ⓜ️ 微软
+DOMAIN-SUFFIX,aspnetcdn.com,Ⓜ️ 微软
+DOMAIN-SUFFIX,assets-yammer.com,Ⓜ️ 微软
+DOMAIN-SUFFIX,azure.com,Ⓜ️ 微软
+DOMAIN-SUFFIX,azure.net,Ⓜ️ 微软
+DOMAIN-SUFFIX,azureedge.net,Ⓜ️ 微软
+DOMAIN-SUFFIX,azurerms.com,Ⓜ️ 微软
+DOMAIN-SUFFIX,bing.com,Ⓜ️ 微软
+DOMAIN-SUFFIX,cloudapp.net,Ⓜ️ 微软
+DOMAIN-SUFFIX,cloudappsecurity.com,Ⓜ️ 微软
+DOMAIN-SUFFIX,gfx.ms,Ⓜ️ 微软
+DOMAIN-SUFFIX,hotmail.com,Ⓜ️ 微软
+DOMAIN-SUFFIX,kollective.app,Ⓜ️ 微软
+DOMAIN-SUFFIX,live.com,Ⓜ️ 微软
+DOMAIN-SUFFIX,live.net,Ⓜ️ 微软
+DOMAIN-SUFFIX,lync.com,Ⓜ️ 微软
+DOMAIN-SUFFIX,msappproxy.net,Ⓜ️ 微软
+DOMAIN-SUFFIX,msauth.net,Ⓜ️ 微软
+DOMAIN-SUFFIX,msauthimages.net,Ⓜ️ 微软
+DOMAIN-SUFFIX,msecnd.net,Ⓜ️ 微软
+DOMAIN-SUFFIX,msedge.net,Ⓜ️ 微软
+DOMAIN-SUFFIX,msft.net,Ⓜ️ 微软
+DOMAIN-SUFFIX,msftauth.net,Ⓜ️ 微软
+DOMAIN-SUFFIX,msftauthimages.net,Ⓜ️ 微软
+DOMAIN-SUFFIX,msftidentity.com,Ⓜ️ 微软
+DOMAIN-SUFFIX,msidentity.com,Ⓜ️ 微软
+DOMAIN-SUFFIX,msn.com,Ⓜ️ 微软
+DOMAIN-SUFFIX,msocdn.com,Ⓜ️ 微软
+DOMAIN-SUFFIX,msocsp.com,Ⓜ️ 微软
+DOMAIN-SUFFIX,mstea.ms,Ⓜ️ 微软
+DOMAIN-SUFFIX,o365weve.com,Ⓜ️ 微软
+DOMAIN-SUFFIX,oaspapps.com,Ⓜ️ 微软
+DOMAIN-SUFFIX,office.com,Ⓜ️ 微软
+DOMAIN-SUFFIX,office.net,Ⓜ️ 微软
+DOMAIN-SUFFIX,office365.com,Ⓜ️ 微软
+DOMAIN-SUFFIX,officeppe.net,Ⓜ️ 微软
+DOMAIN-SUFFIX,omniroot.com,Ⓜ️ 微软
+DOMAIN-SUFFIX,onedrive.com,Ⓜ️ 微软
+DOMAIN-SUFFIX,onenote.com,Ⓜ️ 微软
+DOMAIN-SUFFIX,onenote.net,Ⓜ️ 微软
+DOMAIN-SUFFIX,onestore.ms,Ⓜ️ 微软
+DOMAIN-SUFFIX,outlook.com,Ⓜ️ 微软
+DOMAIN-SUFFIX,outlookmobile.com,Ⓜ️ 微软
+DOMAIN-SUFFIX,phonefactor.net,Ⓜ️ 微软
+DOMAIN-SUFFIX,public-trust.com,Ⓜ️ 微软
+DOMAIN-SUFFIX,sfbassets.com,Ⓜ️ 微软
+DOMAIN-SUFFIX,sfx.ms,Ⓜ️ 微软
+DOMAIN-SUFFIX,sharepoint.com,Ⓜ️ 微软
+DOMAIN-SUFFIX,sharepointonline.com,Ⓜ️ 微软
+DOMAIN-SUFFIX,skype.com,Ⓜ️ 微软
+DOMAIN-SUFFIX,skypeassets.com,Ⓜ️ 微软
+DOMAIN-SUFFIX,skypeforbusiness.com,Ⓜ️ 微软
+DOMAIN-SUFFIX,staffhub.ms,Ⓜ️ 微软
+DOMAIN-SUFFIX,svc.ms,Ⓜ️ 微软
+DOMAIN-SUFFIX,sway-cdn.com,Ⓜ️ 微软
+DOMAIN-SUFFIX,sway-extensions.com,Ⓜ️ 微软
+DOMAIN-SUFFIX,sway.com,Ⓜ️ 微软
+DOMAIN-SUFFIX,trafficmanager.net,Ⓜ️ 微软
+DOMAIN-SUFFIX,uservoice.com,Ⓜ️ 微软
+DOMAIN-SUFFIX,virtualearth.net,Ⓜ️ 微软
+DOMAIN-SUFFIX,visualstudio.com,Ⓜ️ 微软
+DOMAIN-SUFFIX,windows-ppe.net,Ⓜ️ 微软
+DOMAIN-SUFFIX,windows.com,Ⓜ️ 微软
+DOMAIN-SUFFIX,windows.net,Ⓜ️ 微软
+DOMAIN-SUFFIX,windowsazure.com,Ⓜ️ 微软
+DOMAIN-SUFFIX,windowsupdate.com,Ⓜ️ 微软
+DOMAIN-SUFFIX,wunderlist.com,Ⓜ️ 微软
+DOMAIN-SUFFIX,yammer.com,Ⓜ️ 微软
+DOMAIN-SUFFIX,yammerusercontent.com,Ⓜ️ 微软
+
+DOMAIN-KEYWORD,Ⓜ️ 微软,Ⓜ️ 微软
+
+# Speed Test
+USER-AGENT,SpeedTest*,DIRECT
+DOMAIN-KEYWORD,speedtest,DIRECT
+
+# Proxy
+DOMAIN-KEYWORD,jinkela,♻️ 自动选择
+
+DOMAIN,cutt.ly,♻️ 自动选择
+DOMAIN,i.loli.net,♻️ 自动选择
+DOMAIN,relay.firefox.com,♻️ 自动选择
+DOMAIN,search.avira.com,♻️ 自动选择
+DOMAIN,us.weibo.com,♻️ 自动选择
+
+DOMAIN-SUFFIX,iavnight.com,♻️ 自动选择
+
+DOMAIN-KEYWORD,91p,♻️ 自动选择
+DOMAIN,blackmorase.com,♻️ 自动选择
+DOMAIN,i.p04.space,♻️ 自动选择
+
+DOMAIN-SUFFIX,45maoee.com,♻️ 自动选择 
+DOMAIN-SUFFIX,51fengliu.com,♻️ 自动选择 
+DOMAIN-SUFFIX,liveviptv.xyz,♻️ 自动选择
+DOMAIN-SUFFIX,mdapp1.pw,♻️ 自动选择
+DOMAIN-SUFFIX,onlyfans.com,♻️ 自动选择 
+DOMAIN-SUFFIX,xsnvshen.com,♻️ 自动选择
+DOMAIN-SUFFIX,xsnvshen.net,♻️ 自动选择
+
+#cydia
+DOMAIN-SUFFIX,cydia.angelxwind.net,♻️ 自动选择
+DOMAIN-SUFFIX,getdelta.co,♻️ 自动选择
+DOMAIN-SUFFIX,hackyouriphone.org,♻️ 自动选择
+DOMAIN-SUFFIX,ryleyangus.com,♻️ 自动选择
+DOMAIN-SUFFIX,thebigboss.org,♻️ 自动选择
+
+# dubox
+DOMAIN-SUFFIX,dubox.com,♻️ 自动选择
+DOMAIN-SUFFIX,duboxcdn.com,♻️ 自动选择
+
+# Clubhouse
+DOMAIN,clubhouse.pubnub.com,♻️ 自动选择
+DOMAIN-SUFFIX,clubhouseapi.com,♻️ 自动选择
+DOMAIN-SUFFIX,joinclubhouse.com,♻️ 自动选择
+
+DOMAIN-SUFFIX,64memo.com,♻️ 自动选择
+DOMAIN-SUFFIX,androidcentral.com,♻️ 自动选择 
+DOMAIN-SUFFIX,appsliced.co,♻️ 自动选择 
+DOMAIN-SUFFIX,bdwk.588230.com,♻️ 自动选择 
+DOMAIN-SUFFIX,bochk.com,♻️ 自动选择 
+DOMAIN-SUFFIX,cloud.andrewjr.wang,♻️ 自动选择
+DOMAIN-SUFFIX,cloudcone.com.cn,♻️ 自动选择
+DOMAIN-SUFFIX,cloudflare.com,♻️ 自动选择
+DOMAIN-SUFFIX,club.topsage.com,♻️ 自动选择
+DOMAIN-SUFFIX,code.jquery.com,♻️ 自动选择
+DOMAIN-SUFFIX,cydialmp.vip,♻️ 自动选择
+DOMAIN-SUFFIX,cyzone.cn,♻️ 自动选择
+DOMAIN-SUFFIX,dawanews.com,♻️ 自动选择
+DOMAIN-SUFFIX,digitpatrox.com,♻️ 自动选择
+DOMAIN-SUFFIX,disquscdn.com,♻️ 自动选择 
+DOMAIN-SUFFIX,dlink.za.group,♻️ 自动选择
+DOMAIN-SUFFIX,easyatm.com.tw,♻️ 自动选择 
+DOMAIN-SUFFIX,eprice.com.hk,♻️ 自动选择 
+DOMAIN-SUFFIX,feed43.com,♻️ 自动选择
+DOMAIN-SUFFIX,flurry.com,♻️ 自动选择
+DOMAIN-SUFFIX,ft.com,♻️ 自动选择 
+DOMAIN-SUFFIX,geacron.com,♻️ 自动选择
+DOMAIN-SUFFIX,gitbook.com,♻️ 自动选择
+DOMAIN-SUFFIX,gitbook.io,♻️ 自动选择
+DOMAIN-SUFFIX,githubmemory.com,♻️ 自动选择 
+DOMAIN-SUFFIX,goop.ai,♻️ 自动选择 
+DOMAIN-SUFFIX,instabio.cc,♻️ 自动选择 
+DOMAIN-SUFFIX,ixue.io,♻️ 自动选择 
+DOMAIN-SUFFIX,kouwobb.com,♻️ 自动选择
+DOMAIN-SUFFIX,kylc.com,♻️ 自动选择 
+DOMAIN-SUFFIX,libgen.rs,♻️ 自动选择 
+DOMAIN-SUFFIX,limbopro.com,♻️ 自动选择 
+DOMAIN-SUFFIX,limbopro.pro,♻️ 自动选择 
+DOMAIN-SUFFIX,medrxiv.org,♻️ 自动选择 
+DOMAIN-SUFFIX,metapix.net,♻️ 自动选择
+DOMAIN-SUFFIX,myguide.hk,♻️ 自动选择
+DOMAIN-SUFFIX,newsify.co,♻️ 自动选择
+DOMAIN-SUFFIX,ntdimg.com,♻️ 自动选择
+DOMAIN-SUFFIX,nyxz166.cn,♻️ 自动选择
+DOMAIN-SUFFIX,picdiet.com,♻️ 自动选择 
+DOMAIN-SUFFIX,ptwxz.com,♻️ 自动选择 
+DOMAIN-SUFFIX,pysmei.com,♻️ 自动选择 
+DOMAIN-SUFFIX,rsc.cdn77.org,♻️ 自动选择
+DOMAIN-SUFFIX,sinatra.ishowsapp.com,♻️ 自动选择
+DOMAIN-SUFFIX,t.cn,♻️ 自动选择
+DOMAIN-SUFFIX,theappstore.org,♻️ 自动选择 
+DOMAIN-SUFFIX,thenationalpulse.com,♻️ 自动选择
+DOMAIN-SUFFIX,tingtalk.me,♻️ 自动选择
+DOMAIN-SUFFIX,translatetheweb.com,♻️ 自动选择
+DOMAIN-SUFFIX,tv.ci,♻️ 自动选择
+DOMAIN-SUFFIX,ultrareach.com,♻️ 自动选择
+DOMAIN-SUFFIX,ultrasurf.us,♻️ 自动选择
+DOMAIN-SUFFIX,videoplayerhub.com,♻️ 自动选择
+DOMAIN-SUFFIX,voovmeeting.com,♻️ 自动选择
+DOMAIN-SUFFIX,weebly.com,♻️ 自动选择
+DOMAIN-SUFFIX,wemp.app,♻️ 自动选择
+DOMAIN-SUFFIX,wucuoxs.com,♻️ 自动选择
+DOMAIN-SUFFIX,ybex.io,♻️ 自动选择 
+DOMAIN-SUFFIX,yopmail.com,♻️ 自动选择 
+DOMAIN-SUFFIX,zhaojiaren.club,♻️ 自动选择 
+
+# 📲 电报消息
+IP-CIDR,67.198.55.0/24,📲 电报消息
+IP-CIDR,91.108.12.0/22,📲 电报消息
+IP-CIDR,91.108.12.0/22,📲 电报消息
+IP-CIDR,91.108.12.0/27,📲 电报消息
+IP-CIDR,91.108.16.0/22,📲 电报消息
+IP-CIDR,91.108.16.0/22,📲 电报消息
+IP-CIDR,91.108.16.0/27,📲 电报消息
+IP-CIDR,91.108.20.0/22,📲 电报消息
+IP-CIDR,91.108.20.0/23,📲 电报消息
+IP-CIDR,91.108.4.0/22,📲 电报消息
+IP-CIDR,91.108.4.0/22,📲 电报消息
+IP-CIDR,91.108.4.0/24,📲 电报消息
+IP-CIDR,91.108.56.0/22,📲 电报消息
+IP-CIDR,91.108.56.0/22,📲 电报消息
+IP-CIDR,91.108.56.0/23,📲 电报消息
+IP-CIDR,91.108.56.0/24,📲 电报消息
+IP-CIDR,91.108.8.0/22,📲 电报消息
+IP-CIDR,91.108.8.0/22,📲 电报消息
+IP-CIDR,91.108.8.0/27,📲 电报消息
+IP-CIDR,95.161.64.0/20,📲 电报消息
+IP-CIDR,95.161.84.0/23,📲 电报消息
+IP-CIDR,109.239.140.0/24,📲 电报消息
+IP-CIDR,149.154.160.0/20,📲 电报消息
+IP-CIDR,149.154.160.0/22,📲 电报消息
+IP-CIDR,149.154.160.0/22,📲 电报消息
+IP-CIDR,149.154.164.0/22,📲 电报消息
+IP-CIDR,149.154.164.0/22,📲 电报消息
+IP-CIDR,149.154.164.250/32,📲 电报消息
+IP-CIDR,149.154.164.8/29,📲 电报消息
+IP-CIDR,149.154.165.120/32,📲 电报消息
+IP-CIDR,149.154.166.120/32,📲 电报消息
+IP-CIDR,149.154.167.117/32,📲 电报消息
+IP-CIDR,149.154.167.118/32,📲 电报消息
+IP-CIDR,149.154.167.192/27,📲 电报消息
+IP-CIDR,149.154.167.40/32,📲 电报消息
+IP-CIDR,149.154.167.42/32,📲 电报消息
+IP-CIDR,149.154.167.50/32,📲 电报消息
+IP-CIDR,149.154.167.51/32,📲 电报消息
+IP-CIDR,149.154.167.90/32,📲 电报消息
+IP-CIDR,149.154.167.91/32,📲 电报消息
+IP-CIDR,149.154.167.99/32,📲 电报消息
+IP-CIDR,149.154.168.0/22,📲 电报消息
+IP-CIDR,149.154.168.0/22,📲 电报消息
+IP-CIDR,149.154.172.0/22,📲 电报消息
+IP-CIDR,149.154.172.0/22,📲 电报消息
+IP-CIDR,149.154.175.10/32,📲 电报消息
+IP-CIDR,149.154.175.100/32,📲 电报消息
+IP-CIDR,149.154.175.117/32,📲 电报消息
+IP-CIDR,149.154.175.50/32,📲 电报消息
+
+IP6-CIDR,2001:67c:4e8::/48,📲 电报消息
+IP6-CIDR,2001:67c:4e8::/48,📲 电报消息
+IP6-CIDR,2001:67c:4e8:f002::a/128,📲 电报消息
+IP6-CIDR,2001:67c:4e8:f002::e/128,📲 电报消息
+IP6-CIDR,2001:67c:4e8:f004::a/128,📲 电报消息
+IP6-CIDR,2001:67c:4e8:fa60::/64,📲 电报消息
+IP6-CIDR,2001:b28:f23c::/48,📲 电报消息
+IP6-CIDR,2001:b28:f23d::/48,📲 电报消息
+IP6-CIDR,2001:b28:f23d::/48,📲 电报消息
+IP6-CIDR,2001:b28:f23d:f001::a/128,📲 电报消息
+IP6-CIDR,2001:b28:f23d:f001::e/128,📲 电报消息
+IP6-CIDR,2001:b28:f23d:f003::a/128,📲 电报消息
+IP6-CIDR,2001:b28:f23d:f003::e/128,📲 电报消息
+IP6-CIDR,2001:b28:f23f::/48,📲 电报消息
+IP6-CIDR,2001:b28:f23f::/48,📲 电报消息
+IP6-CIDR,2001:b28:f23f:f005::a/128,📲 电报消息
+IP6-CIDR,2001:b28:f242::/48,📲 电报消息
