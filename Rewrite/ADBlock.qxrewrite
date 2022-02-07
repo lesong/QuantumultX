@@ -53,4 +53,13 @@ hostname=m.ads.8le8le.com,iadmusicmat.music.com
 ^(http\:\/\/c\.tieba\.baidu\.com\/(tiebaads\/commonbatch|c\/s\/sync)|https\:\/\/afd\.baidu\.com\/afd\/entry) url script-response-body https://raw.githubusercontent.com/Nick-workflow/script-test/main/bdtb/tb-json.js
 ^http\:\/\/c\.tieba\.baidu\.com\/c\/f\/((frs|pb)\/page|excellent\/personalized) url script-response-body https://raw.githubusercontent.com/Nick-workflow/script-test/main/bdtb/tb-proto.js
 
-hostname = afd.baidu.com,app.bilibili.com, grpc.biliapi.net,gw.alicdn.com,heic.alicdn.com,mp.weixin.qq.com,api.m.jd.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com,analytics.163.com,act.vip.iqiyi.com,*.iqiyipic.com, *.iqiyi.com,m.ads.8le8le.com,iadmusicmat.music.com, mi.gdt.qq.com
+#YouTube
+^https?:\/\/.+?\.amemv\.com\/aweme\/v\d\/(feed|aweme\/post|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list)\/ url script-request-header https://raw.githubusercontent.com/Zhuliyer/ADGai-nai/master/Quantumult%20X/Scripts/Douy.js
+^https?:\/\/.+?\.amemv\.com\/aweme\/v\d\/(feed|aweme\/post|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list)\/ url script-response-body https://raw.githubusercontent.com/Zhuliyer/ADGai-nai/master/Quantumult%20X/Scripts/Douy.js
+(^https?:\/\/[\w-]+\.googlevideo\.com\/(?!dclk_video_ads).+)&ctier=L(&.+) url 302 $1&ctier=A$2
+^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+&oad url reject
+^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads url reject
+^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking) url reject
+^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontext url reject
+
+hostname = afd.baidu.com,app.bilibili.com, grpc.biliapi.net,gw.alicdn.com,heic.alicdn.com,mp.weixin.qq.com,api.m.jd.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com,analytics.163.com,act.vip.iqiyi.com,*.iqiyipic.com, *.iqiyi.com,m.ads.8le8le.com,iadmusicmat.music.com, mi.gdt.qq.com, -redirector*.googlevideo.com, *.googlevideo.com, www.youtube.com, s.youtube.com
