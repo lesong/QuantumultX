@@ -36,6 +36,9 @@ hostname=m.ads.8le8le.com,iadmusicmat.music.com
 #微信
 ^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js
 ^https?+:\/\/mp\.weixin\.qq\.com\/mp\/(?>ad_|advertisement|getappmsgad) url reject-200
+#微信外链直接访问，微信内点击外链时,去除微信外链提示页面,直接访问外链
+^https\:\/\/weixin110\.qq\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/weixin-external-links.js
+
 
 #搬运淘宝(by gitee-木剑)
 #hostname=gw.alicdn.com,heic.alicdn.com
