@@ -97,26 +97,6 @@ DOMAIN,gdmf.apple.com,REJECT
 DOMAIN-SUFFIX,icloud.com,DIRECT
 DOMAIN-SUFFIX,icloud-content.com,DIRECT
 
-DOMAIN-SUFFIX,aaplimg.com,🍎 苹果服务
-DOMAIN-SUFFIX,akadns.net,🍎 苹果服务
-DOMAIN-SUFFIX,akamaiedge.net,🍎 苹果服务
-DOMAIN-SUFFIX,🍎 苹果服务.co,🍎 苹果服务
-DOMAIN-SUFFIX,🍎 苹果服务.com,🍎 苹果服务
-DOMAIN-SUFFIX,🍎 苹果服务.com.cn,🍎 苹果服务
-DOMAIN-SUFFIX,🍎 苹果服务-cloudkit.com,🍎 苹果服务
-DOMAIN-SUFFIX,🍎 苹果服务-mapkit.com,🍎 苹果服务
-DOMAIN-SUFFIX,appsto.re,🍎 苹果服务
-DOMAIN-SUFFIX,appstore.com,🍎 苹果服务
-DOMAIN-SUFFIX,cdn20.com,🍎 苹果服务
-DOMAIN-SUFFIX,cdn-🍎 苹果服务.com,🍎 苹果服务
-DOMAIN-SUFFIX,crashlytics.com,🍎 苹果服务
-DOMAIN-SUFFIX,edgekey.net,🍎 苹果服务
-DOMAIN-SUFFIX,itunes.com,🍎 苹果服务
-DOMAIN-SUFFIX,me.com,🍎 苹果服务
-DOMAIN-SUFFIX,mwcloudcdn.com,🍎 苹果服务
-DOMAIN-SUFFIX,mwcname.com,🍎 苹果服务
-DOMAIN-SUFFIX,mzstatic.com,🍎 苹果服务
-
 # Ⓜ️ 微软
 # https://docs.Ⓜ️ 微软.com/en-us/office365/enterprise/urls-and-ip-address-ranges
 
