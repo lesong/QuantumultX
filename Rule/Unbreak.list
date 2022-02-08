@@ -355,3 +355,165 @@ IP6-CIDR,2001:b28:f23f::/48,📲 电报消息
 IP6-CIDR,2001:b28:f23f::/48,📲 电报消息
 IP6-CIDR,2001:b28:f23f:f005::a/128,📲 电报消息
 IP6-CIDR,2001:b28:f242::/48,📲 电报消息
+
+# 中国国内常见域名关键词 直连
+DOMAIN-KEYWORD,kaishustory,DIRECT
+
+# 中移
+DOMAIN-SUFFIX,139.com,DIRECT
+DOMAIN-SUFFIX,cmpassport.com,DIRECT
+DOMAIN-KEYWORD,chinamobile,DIRECT
+DOMAIN-KEYWORD,miguvideo,DIRECT
+
+# 中国联通
+DOMAIN-SUFFIX,10010.com,DIRECT
+DOMAIN-KEYWORD,chinaunicom,DIRECT
+DOMAIN-KEYWORD,unicompayment,DIRECT
+
+# 中国电信
+DOMAIN-KEYWORD,chinatelecom,DIRECT
+DOMAIN-SUFFIX,21cn.com,DIRECT
+DOMAIN-SUFFIX,21cn.net,DIRECT
+
+# 字节跳动 https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ByteDance.list
+DOMAIN-KEYWORD,bytedance,DIRECT
+DOMAIN-KEYWORD,toutiao,DIRECT
+DOMAIN-KEYWORD,douyin,DIRECT
+DOMAIN-KEYWORD,xigua,DIRECT
+DOMAIN-KEYWORD,zijie,DIRECT
+DOMAIN-KEYWORD,huoshan,DIRECT
+DOMAIN-SUFFIX,amemv.com,DIRECT
+DOMAIN-SUFFIX,amemv.net,DIRECT
+DOMAIN-SUFFIX,bytescm.com,DIRECT
+DOMAIN-SUFFIX,byteimg.com,DIRECT
+DOMAIN-SUFFIX,pstatp.com,DIRECT
+DOMAIN-SUFFIX,bytednsdoc.com,DIRECT
+DOMAIN-SUFFIX,bytegoofy.com,DIRECT
+DOMAIN-SUFFIX,feishucdn.com,DIRECT
+
+# 斗鱼 https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/DouYu.list
+DOMAIN-KEYWORD,douyu,DIRECT
+
+# 小猿搜题
+DOMAIN-KEYWORD,yuanfudao,DIRECT
+DOMAIN-KEYWORD,yfdurl,DIRECT
+DOMAIN-KEYWORD,yuansouti,DIRECT
+DOMAIN-KEYWORD,yuantiku,DIRECT
+DOMAIN-KEYWORD,shandiansiwei,DIRECT
+DOMAIN-KEYWORD,banmaaike,DIRECT
+DOMAIN-KEYWORD,banmagushi,DIRECT
+
+# 酷狗音乐
+DOMAIN-KEYWORD,kugou,DIRECT
+DOMAIN-SUFFIX,kgimg.com,DIRECT
+
+# 酷我音乐
+DOMAIN-SUFFIX,koowo.com,DIRECT
+
+# dingtalk
+DOMAIN-KEYWORD,dingtalk,DIRECT
+DOMAIN-SUFFIX,ddurl.to,DIRECT
+DOMAIN-SUFFIX,laiwang.com,DIRECT
+
+# 金融服务
+DOMAIN-SUFFIX,paypal.com,DIRECT
+
+# 银联
+DOMAIN-KEYWORD,unionpay,DIRECT
+
+# VISA
+DOMAIN-SUFFIX,visa.com,DIRECT
+DOMAIN-SUFFIX,visa.co,DIRECT
+
+# 中信银行
+DOMAIN-KEYWORD,citicbank,DIRECT
+DOMAIN-SUFFIX,ecitic.com,DIRECT
+DOMAIN-SUFFIX,cncbinternational.com,DIRECT
+
+# 交通银行
+DOMAIN-KEYWORD,bankcomm,DIRECT
+
+# 中国建设银行
+DOMAIN-SUFFIX,ccb.com,DIRECT
+DOMAIN-KEYWORD,ccbhome,DIRECT
+
+# 工商银行
+DOMAIN-SUFFIX,icbc-ltd.com,DIRECT
+DOMAIN-SUFFIX,icbc.com,DIRECT
+DOMAIN-KEYWORD,icbcstandard,DIRECT
+
+# 邮政储蓄
+DOMAIN-SUFFIX,psbc.com,DIRECT
+
+# 光大银行
+DOMAIN-SUFFIX,cebbank.com,DIRECT
+
+# 农业银行
+DOMAIN-SUFFIX,abchina.com,DIRECT
+
+# 中国银行
+DOMAIN-KEYWORD,bankofchina,DIRECT
+
+# 广发银行
+DOMAIN-KEYWORD,cgbchina,DIRECT
+
+# 招商银行
+DOMAIN-KEYWORD,cmbchina,DIRECT
+
+# jd
+DOMAIN-KEYWORD,jdpay,DIRECT
+DOMAIN-KEYWORD,jdcloud,DIRECT
+DOMAIN-SUFFIX,jd.com,DIRECT
+
+# hw
+DOMAIN-SUFFIX,vmall.com,DIRECT
+DOMAIN-SUFFIX,harmonyos.com,DIRECT
+DOMAIN-SUFFIX,hicloud.com,DIRECT
+DOMAIN-KEYWORD,hwclouds,DIRECT
+DOMAIN-KEYWORD,dbankcloud,DIRECT
+DOMAIN-KEYWORD,dbankcdn,DIRECT
+DOMAIN-KEYWORD,huawei,DIRECT
+
+# mi
+DOMAIN-KEYWORD,xiaomi,DIRECT
+DOMAIN-SUFFIX,mi.com,DIRECT
+DOMAIN-SUFFIX,miui.com,DIRECT
+DOMAIN-SUFFIX,kuaipandata.com,DIRECT
+DOMAIN-SUFFIX,huami.com,DIRECT
+DOMAIN-SUFFIX,mipush.com,DIRECT
+DOMAIN-SUFFIX,duokan.com,DIRECT
+
+# 迅雷下载
+DOMAIN-SUFFIX,sandai.net,DIRECT
+DOMAIN-SUFFIX,xunlei.com,DIRECT
+
+# Anti-BT
+DOMAIN-KEYWORD,announce,DIRECT
+DOMAIN-KEYWORD,torrent,DIRECT
+DOMAIN-KEYWORD,tracker,DIRECT
+
+DOMAIN-SUFFIX,smtp,DIRECT
+
+PROCESS-NAME,DownloadService.exe,DIRECT
+PROCESS-NAME,Folx.exe,DIRECT
+PROCESS-NAME,NetTransport.exe,DIRECT
+PROCESS-NAME,com.xunlei.downloadprovider,DIRECT
+PROCESS-NAME,DownloadSDKServer.exe,DIRECT
+PROCESS-NAME,Thunder,DIRECT
+PROCESS-NAME,Thunder.exe,DIRECT
+PROCESS-NAME,Transmission.exe,DIRECT
+PROCESS-NAME,WebTorrent Helper.exe,DIRECT
+PROCESS-NAME,WebTorrent.exe,DIRECT
+PROCESS-NAME,Weiyun.exe,DIRECT
+PROCESS-NAME,aria2c.exe,DIRECT
+PROCESS-NAME,baidunetdisk.exe,DIRECT
+PROCESS-NAME,uTorrent.exe,DIRECT
+URL-REGEX,(.+.)?(torrent|announce.php?passkey=|tracker|BitTorrent|bt_key|ed2k|find_node|get_peers|info_hash|magnet:|peer_id=|xunlei)(..+)?,DIRECT
+URL-REGEX,(.?)(xunlei|sandai|Thunder|XLLiveUD)(.),DIRECT
+URL-REGEX,(Subject|HELO|SMTP),DIRECT
+
+# dns服务
+DOMAIN-SUFFIX,dot.pub,DIRECT
+DOMAIN-SUFFIX,doh.pub,DIRECT
+DOMAIN-SUFFIX,dns.pub,DIRECT
+DOMAIN-SUFFIX,alidns.com,DIRECT
