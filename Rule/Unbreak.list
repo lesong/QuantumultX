@@ -76,6 +76,9 @@ DOMAIN-SUFFIX,launchdarkly.com,🇺🇸 美国
 DOMAIN-SUFFIX,ultramobile.com,🇺🇸 美国
 DOMAIN-SUFFIX,amplitude.com,🇺🇸 美国
 
+# 2miners
+DOMAIN-SUFFIX,2miners.com🇺🇸,🇺🇸 美国
+
 # Apple
 DOMAIN,lookup-api.apple.com,♻️ 自动选择
 DOMAIN,testflight.apple.com,♻️ 自动选择
