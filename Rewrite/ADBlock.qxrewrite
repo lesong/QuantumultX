@@ -65,12 +65,14 @@ hostname=m.ads.8le8le.com,iadmusicmat.music.com
 #去哪儿开屏广告
 https://homefront.qunar.com/front/splash/ad url reject
 
-#YouTube
+# YouTube去广告      
+#hostname= -redirector*.googlevideo.com,*.googlevideo.com,www.youtube.com,s.youtube.com
 (^https?:\/\/[\w-]+\.googlevideo\.com\/(?!dclk_video_ads).+)&ctier=L(&.+) url 302 $1&ctier=A$2
 ^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+&oad url reject
 ^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads url reject
 ^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking) url reject
 ^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontext url reject
+
 
 #抖音去广告水印
 ^https?:\/\/.+?\.amemv\.com\/aweme\/v\d\/(feed|aweme\/post|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list)\/ url script-request-header https://raw.githubusercontent.com/Zhuliyer/ADGai-nai/master/Quantumult%20X/Scripts/Douy.js
