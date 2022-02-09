@@ -166,4 +166,14 @@ URL-REGEX,^https?:\/\/api\.zhihu\.com\/commercial_api\/launch_v2\? url reject-di
 ^https?:\/\/creditcardapp\.bankcomm\.com\/mapp\/common\/queryGuidePageAds\.do$ url reject-200
 ^https?:\/\/creditcardapp\.bankcomm\.com\/mapp\/common\/getPopAds\.do$  url reject-200
 
-hostname = api5-core-c-lf.amemv.com, api3-core-c-lf.amemv.com, homefront.qunar.com, creditcardapp.bankcomm.com, app-api.smzdm.com, homepage-api.smzdm.com, haojia-api.smzdm.com, haojia.m.smzdm.com, baike-api.smzdm.com, *.bdstatic.com, wmapi.meituan.com, afd.baidu.com,app.bilibili.com, grpc.biliapi.net,gw.alicdn.com,heic.alicdn.com,mp.weixin.qq.com,api.m.jd.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com,analytics.163.com,act.vip.iqiyi.com,*.iqiyipic.com, *.iqiyi.com,m.ads.8le8le.com,iadmusicmat.music.com, mi.gdt.qq.com, m*.amap.com, www.zhihu.com, api.zhihu.com, zhuanlan.zhihu.com, appcloud2.zhihu.com, 103.41.167.236, 103.41.167.234, 103.41.167.235, 103.41.167.226, app.bilibili.com, grpc.biliapi.net, ap?.bilibili.com, ap?.biliapi.net
+#youtube
+#hostname = -redirector*.googlevideo.com,*.googlevideo.com,www.youtube.com,s.youtube.com,youtubei.googleapis.com
+(^https?:\/\/[\w-]+\.googlevideo\.com\/(?!dclk_video_ads).+?)&ctier=L(&.+?),ctier,(.+) url 302 $1$2$3
+^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+&oad url reject
+
+^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v\d\/player\/ad_break url reject
+^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads url reject
+^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking) url reject
+^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontext url reject
+
+hostname = -redirector*.googlevideo.com, *.googlevideo.com, www.youtube.com, s.youtube.com, youtubei.googleapis.com, api5-core-c-lf.amemv.com, api3-core-c-lf.amemv.com, homefront.qunar.com, creditcardapp.bankcomm.com, app-api.smzdm.com, homepage-api.smzdm.com, haojia-api.smzdm.com, haojia.m.smzdm.com, baike-api.smzdm.com, *.bdstatic.com, wmapi.meituan.com, afd.baidu.com,app.bilibili.com, grpc.biliapi.net,gw.alicdn.com,heic.alicdn.com,mp.weixin.qq.com,api.m.jd.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com,analytics.163.com,act.vip.iqiyi.com,*.iqiyipic.com, *.iqiyi.com,m.ads.8le8le.com,iadmusicmat.music.com, mi.gdt.qq.com, m*.amap.com, www.zhihu.com, api.zhihu.com, zhuanlan.zhihu.com, appcloud2.zhihu.com, 103.41.167.236, 103.41.167.234, 103.41.167.235, 103.41.167.226, app.bilibili.com, grpc.biliapi.net, ap?.bilibili.com, ap?.biliapi.net

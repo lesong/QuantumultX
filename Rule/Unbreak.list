@@ -1,4 +1,18 @@
-# Unbreak
+# Unbreak lesong自用规则修正
+# ultramobile
+DOMAIN-SUFFIX,launchdarkly.com,🇺🇸 美国
+DOMAIN-SUFFIX,ultramobile.com,🇺🇸 美国
+DOMAIN-KEYWORD,ultramobile,🇺🇸 美国
+DOMAIN-SUFFIX,amplitude.com,🇺🇸 美国
+
+# 2miners
+DOMAIN-KEYWORD,2miners,🇺🇸 美国
+
+#target
+DOMAIN-KEYWORD,target,🇺🇸 美国
+DOMAIN-SUFFIX,target.com,🇺🇸 美国
+DOMAIN-SUFFIX,carnivalmobile.com,🇺🇸 美国
+
 DOMAIN,app.adjust.com,DIRECT
 
 DOMAIN,bdtj.tagtic.cn,DIRECT
@@ -70,20 +84,6 @@ DOMAIN,update.googleapis.com,DIRECT
 
 DOMAIN-SUFFIX,googleanalytics.com,DIRECT
 DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
-
-# ultramobile
-DOMAIN-SUFFIX,launchdarkly.com,🇺🇸 美国
-DOMAIN-SUFFIX,ultramobile.com,🇺🇸 美国
-DOMAIN-KEYWORD,ultramobile,🇺🇸 美国
-DOMAIN-SUFFIX,amplitude.com,🇺🇸 美国
-
-# 2miners
-DOMAIN-KEYWORD,2miners,🇺🇸 美国
-
-#target
-DOMAIN-KEYWORD,target,🇺🇸 美国
-DOMAIN-SUFFIX,target.com,🇺🇸 美国
-DOMAIN-SUFFIX,carnivalmobile.com,🇺🇸 美国
 
 # Apple
 DOMAIN,lookup-api.apple.com,♻️ 自动选择
