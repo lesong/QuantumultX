@@ -13,6 +13,9 @@ DOMAIN-KEYWORD,target,🇺🇸 美国
 DOMAIN-SUFFIX,target.com,🇺🇸 美国
 DOMAIN-SUFFIX,carnivalmobile.com,🇺🇸 美国
 
+# 金融服务
+DOMAIN-SUFFIX,paypal.com,🇺🇸 美国
+
 DOMAIN,app.adjust.com,DIRECT
 
 DOMAIN,bdtj.tagtic.cn,DIRECT
