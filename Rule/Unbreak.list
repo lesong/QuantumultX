@@ -503,19 +503,6 @@ DOMAIN-KEYWORD,tracker,DIRECT
 
 DOMAIN-SUFFIX,smtp,DIRECT
 
-PROCESS-NAME,Folx.exe,DIRECT
-PROCESS-NAME,NetTransport.exe,DIRECT
-PROCESS-NAME,com.xunlei.downloadprovider,DIRECT
-PROCESS-NAME,DownloadSDKServer.exe,DIRECT
-PROCESS-NAME,Thunder,DIRECT
-PROCESS-NAME,Thunder.exe,DIRECT
-PROCESS-NAME,Transmission.exe,DIRECT
-PROCESS-NAME,WebTorrent Helper.exe,DIRECT
-PROCESS-NAME,WebTorrent.exe,DIRECT
-PROCESS-NAME,Weiyun.exe,DIRECT
-PROCESS-NAME,aria2c.exe,DIRECT
-PROCESS-NAME,baidunetdisk.exe,DIRECT
-PROCESS-NAME,uTorrent.exe,DIRECT
 URL-REGEX,(.+.)?(torrent|announce.php?passkey=|tracker|BitTorrent|bt_key|ed2k|find_node|get_peers|info_hash|magnet:|peer_id=|xunlei)(..+)?,DIRECT
 URL-REGEX,(.?)(xunlei|sandai|Thunder|XLLiveUD)(.),DIRECT
 URL-REGEX,(Subject|HELO|SMTP),DIRECT
