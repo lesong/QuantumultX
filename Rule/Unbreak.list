@@ -13,8 +13,11 @@ DOMAIN-KEYWORD,target,🇺🇸 美国
 DOMAIN-SUFFIX,target.com,🇺🇸 美国
 DOMAIN-SUFFIX,carnivalmobile.com,🇺🇸 美国
 
-# 金融服务
+# > PayPal
+USER-AGENT,PayPal*,🇺🇸 美国
 DOMAIN-SUFFIX,paypal.com,🇺🇸 美国
+DOMAIN-SUFFIX,paypal.me,🇺🇸 美国
+DOMAIN-SUFFIX,paypalobjects.com,🇺🇸 美国
 
 DOMAIN,app.adjust.com,DIRECT
 
