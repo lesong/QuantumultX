@@ -61,9 +61,13 @@ hostname=m.ads.8le8le.com,iadmusicmat.music.com
 ^https://new.vip.weibo.cn/littleskin/preview url script-response-body https://raw.githubusercontent.com/zmqcherish/proxy-script/main/weibo_main.js
 
 #贴吧去广告
-#hostname=afd.baidu.com
-^(http:\/\/c\.tieba\.baidu\.com\/(tiebaads\/commonbatch|c\/s\/sync)|https:\/\/afd\.baidu\.com\/afd\/entry) url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/tieba-json.js
-^http:\/\/c\.tieba\.baidu\.com\/c\/f\/((frs|pb)\/page|excellent\/personalized|frs\/generalTabList) url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/tieba-proto.js
+#hostname=c.tieba.baidu.com
+^https?://c.tieba.baidu.com/\w+/\w+/(sync|newRnSync|newlog|mlog) url reject-dict
+^https?:\/\/c\.tieba\.baidu\.com\/\w+\/\w+\/(sync|newRnSync|newlog|mlog) url reject-200
+^https?:\/\/c\.tieba\.baidu\.com\/c\/f\/forum\/getAdInfo url reject
+^https?:\/\/c\.tieba\.baidu\.com\/c\/p\/img\?src= url reject-img
+^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/logtogether\?cmd= url reject-img
+^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/splashSchedule url reject
 
 #去哪儿开屏广告
 https://homefront.qunar.com/front/splash/ad url reject
@@ -176,4 +180,4 @@ URL-REGEX,^https?:\/\/api\.zhihu\.com\/commercial_api\/launch_v2\? url reject-di
 ^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking) url reject
 ^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontext url reject
 
-hostname = -redirector*.googlevideo.com, *.googlevideo.com, www.youtube.com, s.youtube.com, youtubei.googleapis.com, api5-core-c-lf.amemv.com, api3-core-c-lf.amemv.com, homefront.qunar.com, creditcardapp.bankcomm.com, app-api.smzdm.com, homepage-api.smzdm.com, haojia-api.smzdm.com, haojia.m.smzdm.com, baike-api.smzdm.com, *.bdstatic.com, wmapi.meituan.com, afd.baidu.com,app.bilibili.com, grpc.biliapi.net,gw.alicdn.com,heic.alicdn.com,mp.weixin.qq.com,api.m.jd.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com,analytics.163.com,act.vip.iqiyi.com,*.iqiyipic.com, *.iqiyi.com,m.ads.8le8le.com,iadmusicmat.music.com, mi.gdt.qq.com, m*.amap.com, www.zhihu.com, api.zhihu.com, zhuanlan.zhihu.com, appcloud2.zhihu.com, 103.41.167.236, 103.41.167.234, 103.41.167.235, 103.41.167.226, app.bilibili.com, grpc.biliapi.net, ap?.bilibili.com, ap?.biliapi.net
+hostname = -redirector*.googlevideo.com, *.googlevideo.com, www.youtube.com, s.youtube.com, youtubei.googleapis.com, api5-core-c-lf.amemv.com, api3-core-c-lf.amemv.com, homefront.qunar.com, creditcardapp.bankcomm.com, app-api.smzdm.com, homepage-api.smzdm.com, haojia-api.smzdm.com, haojia.m.smzdm.com, baike-api.smzdm.com, *.bdstatic.com, wmapi.meituan.com, c.tieba.baidu.com, app.bilibili.com, grpc.biliapi.net, gw.alicdn.com,heic.alicdn.com, mp.weixin.qq.com, api.m.jd.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, analytics.163.com,act.vip.iqiyi.com,*.iqiyipic.com, *.iqiyi.com,m.ads.8le8le.com,iadmusicmat.music.com, mi.gdt.qq.com, m*.amap.com, www.zhihu.com, api.zhihu.com, zhuanlan.zhihu.com, appcloud2.zhihu.com, 103.41.167.236, 103.41.167.234, 103.41.167.235, 103.41.167.226, app.bilibili.com, grpc.biliapi.net, ap?.bilibili.com, ap?.biliapi.net
