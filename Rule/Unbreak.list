@@ -503,10 +503,6 @@ DOMAIN-KEYWORD,tracker,DIRECT
 
 DOMAIN-SUFFIX,smtp,DIRECT
 
-URL-REGEX,(.+.)?(torrent|announce.php?passkey=|tracker|BitTorrent|bt_key|ed2k|find_node|get_peers|info_hash|magnet:|peer_id=|xunlei)(..+)?,DIRECT
-URL-REGEX,(.?)(xunlei|sandai|Thunder|XLLiveUD)(.),DIRECT
-URL-REGEX,(Subject|HELO|SMTP),DIRECT
-
 # dns服务
 DOMAIN-SUFFIX,dot.pub,DIRECT
 DOMAIN-SUFFIX,doh.pub,DIRECT
