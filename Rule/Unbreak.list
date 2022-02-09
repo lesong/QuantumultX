@@ -424,9 +424,6 @@ DOMAIN-KEYWORD,dingtalk,DIRECT
 DOMAIN-SUFFIX,ddurl.to,DIRECT
 DOMAIN-SUFFIX,laiwang.com,DIRECT
 
-# 金融服务
-DOMAIN-SUFFIX,paypal.com,DIRECT
-
 # 银联
 DOMAIN-KEYWORD,unionpay,DIRECT
 
