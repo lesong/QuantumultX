@@ -503,7 +503,6 @@ DOMAIN-KEYWORD,tracker,DIRECT
 
 DOMAIN-SUFFIX,smtp,DIRECT
 
-PROCESS-NAME,DownloadService.exe,DIRECT
 PROCESS-NAME,Folx.exe,DIRECT
 PROCESS-NAME,NetTransport.exe,DIRECT
 PROCESS-NAME,com.xunlei.downloadprovider,DIRECT
