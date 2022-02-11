@@ -1,10 +1,12 @@
-hostname = api5-core-c-lf.amemv.com, api3-core-c-lf.amemv.com, homefront.qunar.com, creditcardapp.bankcomm.com, app-api.smzdm.com, homepage-api.smzdm.com, haojia-api.smzdm.com, haojia.m.smzdm.com, baike-api.smzdm.com, wmapi.meituan.com, gw.alicdn.com,heic.alicdn.com, api.m.jd.com, analytics.163.com, act.vip.iqiyi.com, intl.iqiyi.com, m.ads.8le8le.com, iadmusicmat.music.com, mi.gdt.qq.com, m*.amap.com, clientaccess.10086.cn, m.client.10010.com, cloud.189.cn, www.xiaohongshu.com
+hostname = api5-core-c-lf.amemv.com, api3-core-c-lf.amemv.com, homefront.qunar.com, creditcardapp.bankcomm.com, app-api.smzdm.com, homepage-api.smzdm.com, haojia-api.smzdm.com, haojia.m.smzdm.com, baike-api.smzdm.com, wmapi.meituan.com, gw.alicdn.com,heic.alicdn.com, api.m.jd.com, analytics.163.com, act.vip.iqiyi.com, intl.iqiyi.com, m.ads.8le8le.com, iadmusicmat.music.com, mi.gdt.qq.com, m*.amap.com, clientaccess.10086.cn, m.client.10010.com, cloud.189.cn, www.xiaohongshu.com, *.chelaile.net.cn
 
 
 # > 小红书
 #hostname = www.xiaohongshu.com
-^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/v\d\/system_service\/splash_config url reject
-^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/v\d\/ads\/ url reject
+^https:\/\/www\.xiaohongshu\.com\/api\/sns\/v1\/ads\/apple\/record* url reject
+^https:\/\/www\.xiaohongshu\.com\/api\/sns\/v1\/tag\/ads_engage* url reject
+^https:\/\/www\.xiaohongshu\.com\/api\/sns\/v1\/ads\/resource* url reject
+^https:\/\/pages\.xiaohongshu\.com\/data\/native\/matrix_switches* url reject
 
 # > ChinaMobile
 #hostname = clientaccess.10086.cn
@@ -81,6 +83,15 @@ https://homefront.qunar.com/front/splash/ad url reject
 #交行买单吧
 ^https?:\/\/creditcardapp\.bankcomm\.com\/mapp\/common\/queryGuidePageAds\.do$ url reject-200
 ^https?:\/\/creditcardapp\.bankcomm\.com\/mapp\/common\/getPopAds\.do$  url reject-200
+
+#车来了
+#hostname = *.chelaile.net.cn
+^https?:\/\/api.chelaile.net.cn\/adpub\/ url reject
+^https?:\/\/api.chelaile.net.cn\/goocity\/advert\/ url reject
+^https?:\/\/atrace.chelaile.net.cn\/adpub\/ url reject
+^https?:\/\/atrace.chelaile.net.cn\/exhibit\?&adv_image url reject
+^https?:\/\/pic1.chelaile.net.cn\/adv\/ url reject
+
 
 
 
