@@ -19,6 +19,9 @@ DOMAIN-SUFFIX,paypal.com,🇺🇸 美国
 DOMAIN-SUFFIX,paypal.me,🇺🇸 美国
 DOMAIN-SUFFIX,paypalobjects.com,🇺🇸 美国
 
+#百度地图开屏广告
+DOMAIN,dss0.bdstatic.com,REJECT
+
 DOMAIN,app.adjust.com,DIRECT
 
 DOMAIN,bdtj.tagtic.cn,DIRECT
