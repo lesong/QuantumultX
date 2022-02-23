@@ -50,7 +50,7 @@ hostname=m.ads.8le8le.com,iadmusicmat.music.com
 //购物相关
 # 【京东】历史价格（by @yichahucha）
 #hostname = api.m.jd.com
-^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/script/6703a306f4acd234b7bd5f6adf90bcb5.js
+^https?://api\.m\.jd\.com/(client\.action|api)\?functionId=(wareBusiness|serverConfig|basicConfig|lite_wareBusiness|pingou_item) url script-response-body https://raw.githubusercontent.com/Tartarus2014/Script/master/jdjf_price.js
 # 【京东】历史价格+返利（弹窗）
 #hostname = api.m.jd.com
 ^https?://api\.m\.jd\.com/(client\.action|api)\?functionId=(wareBusiness|serverConfig|basicConfig|lite_wareBusiness|pingou_item) url script-response-body https://raw.githubusercontent.com/Tartarus2014/Script/master/jdjf_price.js
