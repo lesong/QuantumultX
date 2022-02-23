@@ -47,25 +47,6 @@ hostname=m.ads.8le8le.com,iadmusicmat.music.com
 ^https?:\/\/(gw|heic)\.alicdn\.com\/\w{2}s\/.+\.jpg_(9\d{2}|\d{4}) url reject-dict
 ^https?:\/\/(gw|heic)\.alicdn\.com\/imgextra\/.+\d{4}-\d{4}\.jpg_(9\d{2}|\d{4}) url reject-dict
 
-//购物相关
-# 【京东】历史价格（by @yichahucha）
-#hostname = api.m.jd.com
-^https?://api\.m\.jd\.com/(client\.action|api)\?functionId=(wareBusiness|serverConfig|basicConfig|lite_wareBusiness|pingou_item) url script-response-body https://raw.githubusercontent.com/Tartarus2014/Script/master/jdjf_price.js
-# 【京东】历史价格+返利（弹窗）
-#hostname = api.m.jd.com
-^https?://api\.m\.jd\.com/(client\.action|api)\?functionId=(wareBusiness|serverConfig|basicConfig|lite_wareBusiness|pingou_item) url script-response-body https://raw.githubusercontent.com/Tartarus2014/Script/master/jdjf_price.js
-# 【京粉】（京东、京喜、极速版）转链
-#hostname = me-api.jd.com
-^https?://api\.m\.jd\.com/(client\.action|api)\?functionId=(wareBusiness|serverConfig|basicConfig|lite_wareBusiness|pingou_item) url script-response-body https://raw.githubusercontent.com/githubdulong/Script/master/jfConvert.js
-# 【淘宝】历史价格（by @yichahucha）
-#hostname = trade-acs.m.taobao.com
-#不生效或失效的需要卸载淘宝重装，注意不开脚本进淘宝会失效
-# 【淘宝】历史价格（by @Small）内置
-#hostname = trade-acs.m.taobao.com
-^http://.+/amdc/mobileDispatch url script-request-body https://service.2ti.st/QuanX/Script/jd_tb_price/main.js
-^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail url script-response-body https://service.2ti.st/QuanX/Script/jd_tb_price/main.js
-
-
 #去哪儿开屏广告
 https://homefront.qunar.com/front/splash/ad url reject
 
