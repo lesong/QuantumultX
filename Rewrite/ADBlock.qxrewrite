@@ -35,13 +35,6 @@ hostname=m.ads.8le8le.com,iadmusicmat.music.com
 ^https?:\/\/intl\.iqiyi\.com\/video\/advertise url reject
 ^https?:\/\/u\d\.iqiyipic\.com\/image\/[\w\/]+\/oad_ url reject
 
-#京东开屏广告屏蔽(改写自surge)
-^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js
-^https?+:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$ url reject-200
-^https?+:\/\/b?dsp-x\.jd\.com\/adx\/ url reject-200
-^https?+:\/\/ms\.jr\.jd\.com\/gw\/generic\/base\/na\/m\/adInfo url reject-200
-^https?+:\/\/ms\.jr\.jd\.com\/gw\/generic\/aladdin\/na\/m\/getLoadingPicture url reject-200
-
 #搬运淘宝(by gitee-木剑)
 #hostname=gw.alicdn.com,heic.alicdn.com
 ^https?:\/\/(gw|heic)\.alicdn\.com\/\w{2}s\/.+\.jpg_(9\d{2}|\d{4}) url reject-dict
