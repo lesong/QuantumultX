@@ -115,8 +115,8 @@ DOMAIN,gdmf.apple.com,REJECT
 DOMAIN-SUFFIX,icloud.com,DIRECT
 DOMAIN-SUFFIX,icloud-content.com,DIRECT
 
-# Ⓜ️ 微软
-# https://docs.Ⓜ️ 微软.com/en-us/office365/enterprise/urls-and-ip-address-ranges
+# Microsoft
+# https://docs.Microsoft.com/en-us/office365/enterprise/urls-and-ip-address-ranges
 
 DOMAIN,jdsharedresourcescdn.azureedge.net,♻️ 自动选择
 DOMAIN,outlook.office365.com,♻️ 自动选择
@@ -124,82 +124,82 @@ DOMAIN,www.bing.com,♻️ 自动选择
 DOMAIN-SUFFIX,hk.msn.com,🇭🇰 香港
 DOMAIN-SUFFIX,msn.com.tw,🇨🇳 台湾
 
-DOMAIN-SUFFIX,1drv.com,Ⓜ️ 微软
-DOMAIN-SUFFIX,aadrm.com,Ⓜ️ 微软
-DOMAIN-SUFFIX,acompli.com,Ⓜ️ 微软
-DOMAIN-SUFFIX,acompli.net,Ⓜ️ 微软
-DOMAIN-SUFFIX,aka.ms,Ⓜ️ 微软
-DOMAIN-SUFFIX,appcenter.ms,Ⓜ️ 微软
-DOMAIN-SUFFIX,aspnetcdn.com,Ⓜ️ 微软
-DOMAIN-SUFFIX,assets-yammer.com,Ⓜ️ 微软
-DOMAIN-SUFFIX,azure.com,Ⓜ️ 微软
-DOMAIN-SUFFIX,azure.net,Ⓜ️ 微软
-DOMAIN-SUFFIX,azureedge.net,Ⓜ️ 微软
-DOMAIN-SUFFIX,azurerms.com,Ⓜ️ 微软
-DOMAIN-SUFFIX,bing.com,Ⓜ️ 微软
-DOMAIN-SUFFIX,cloudapp.net,Ⓜ️ 微软
-DOMAIN-SUFFIX,cloudappsecurity.com,Ⓜ️ 微软
-DOMAIN-SUFFIX,gfx.ms,Ⓜ️ 微软
-DOMAIN-SUFFIX,hotmail.com,Ⓜ️ 微软
-DOMAIN-SUFFIX,kollective.app,Ⓜ️ 微软
-DOMAIN-SUFFIX,live.com,Ⓜ️ 微软
-DOMAIN-SUFFIX,live.net,Ⓜ️ 微软
-DOMAIN-SUFFIX,lync.com,Ⓜ️ 微软
-DOMAIN-SUFFIX,msappproxy.net,Ⓜ️ 微软
-DOMAIN-SUFFIX,msauth.net,Ⓜ️ 微软
-DOMAIN-SUFFIX,msauthimages.net,Ⓜ️ 微软
-DOMAIN-SUFFIX,msecnd.net,Ⓜ️ 微软
-DOMAIN-SUFFIX,msedge.net,Ⓜ️ 微软
-DOMAIN-SUFFIX,msft.net,Ⓜ️ 微软
-DOMAIN-SUFFIX,msftauth.net,Ⓜ️ 微软
-DOMAIN-SUFFIX,msftauthimages.net,Ⓜ️ 微软
-DOMAIN-SUFFIX,msftidentity.com,Ⓜ️ 微软
-DOMAIN-SUFFIX,msidentity.com,Ⓜ️ 微软
-DOMAIN-SUFFIX,msn.com,Ⓜ️ 微软
-DOMAIN-SUFFIX,msocdn.com,Ⓜ️ 微软
-DOMAIN-SUFFIX,msocsp.com,Ⓜ️ 微软
-DOMAIN-SUFFIX,mstea.ms,Ⓜ️ 微软
-DOMAIN-SUFFIX,o365weve.com,Ⓜ️ 微软
-DOMAIN-SUFFIX,oaspapps.com,Ⓜ️ 微软
-DOMAIN-SUFFIX,office.com,Ⓜ️ 微软
-DOMAIN-SUFFIX,office.net,Ⓜ️ 微软
-DOMAIN-SUFFIX,office365.com,Ⓜ️ 微软
-DOMAIN-SUFFIX,officeppe.net,Ⓜ️ 微软
-DOMAIN-SUFFIX,omniroot.com,Ⓜ️ 微软
-DOMAIN-SUFFIX,onedrive.com,Ⓜ️ 微软
-DOMAIN-SUFFIX,onenote.com,Ⓜ️ 微软
-DOMAIN-SUFFIX,onenote.net,Ⓜ️ 微软
-DOMAIN-SUFFIX,onestore.ms,Ⓜ️ 微软
-DOMAIN-SUFFIX,outlook.com,Ⓜ️ 微软
-DOMAIN-SUFFIX,outlookmobile.com,Ⓜ️ 微软
-DOMAIN-SUFFIX,phonefactor.net,Ⓜ️ 微软
-DOMAIN-SUFFIX,public-trust.com,Ⓜ️ 微软
-DOMAIN-SUFFIX,sfbassets.com,Ⓜ️ 微软
-DOMAIN-SUFFIX,sfx.ms,Ⓜ️ 微软
-DOMAIN-SUFFIX,sharepoint.com,Ⓜ️ 微软
-DOMAIN-SUFFIX,sharepointonline.com,Ⓜ️ 微软
-DOMAIN-SUFFIX,skype.com,Ⓜ️ 微软
-DOMAIN-SUFFIX,skypeassets.com,Ⓜ️ 微软
-DOMAIN-SUFFIX,skypeforbusiness.com,Ⓜ️ 微软
-DOMAIN-SUFFIX,staffhub.ms,Ⓜ️ 微软
-DOMAIN-SUFFIX,svc.ms,Ⓜ️ 微软
-DOMAIN-SUFFIX,sway-cdn.com,Ⓜ️ 微软
-DOMAIN-SUFFIX,sway-extensions.com,Ⓜ️ 微软
-DOMAIN-SUFFIX,sway.com,Ⓜ️ 微软
-DOMAIN-SUFFIX,trafficmanager.net,Ⓜ️ 微软
-DOMAIN-SUFFIX,uservoice.com,Ⓜ️ 微软
-DOMAIN-SUFFIX,virtualearth.net,Ⓜ️ 微软
-DOMAIN-SUFFIX,visualstudio.com,Ⓜ️ 微软
-DOMAIN-SUFFIX,windows-ppe.net,Ⓜ️ 微软
-DOMAIN-SUFFIX,windows.com,Ⓜ️ 微软
-DOMAIN-SUFFIX,windows.net,Ⓜ️ 微软
-DOMAIN-SUFFIX,windowsazure.com,Ⓜ️ 微软
-DOMAIN-SUFFIX,windowsupdate.com,Ⓜ️ 微软
-DOMAIN-SUFFIX,wunderlist.com,Ⓜ️ 微软
-DOMAIN-SUFFIX,yammer.com,Ⓜ️ 微软
-DOMAIN-SUFFIX,yammerusercontent.com,Ⓜ️ 微软
+DOMAIN-SUFFIX,1drv.com,Microsoft
+DOMAIN-SUFFIX,aadrm.com,Microsoft
+DOMAIN-SUFFIX,acompli.com,Microsoft
+DOMAIN-SUFFIX,acompli.net,Microsoft
+DOMAIN-SUFFIX,aka.ms,Microsoft
+DOMAIN-SUFFIX,appcenter.ms,Microsoft
+DOMAIN-SUFFIX,aspnetcdn.com,Microsoft
+DOMAIN-SUFFIX,assets-yammer.com,Microsoft
+DOMAIN-SUFFIX,azure.com,Microsoft
+DOMAIN-SUFFIX,azure.net,Microsoft
+DOMAIN-SUFFIX,azureedge.net,Microsoft
+DOMAIN-SUFFIX,azurerms.com,Microsoft
+DOMAIN-SUFFIX,bing.com,Microsoft
+DOMAIN-SUFFIX,cloudapp.net,Microsoft
+DOMAIN-SUFFIX,cloudappsecurity.com,Microsoft
+DOMAIN-SUFFIX,gfx.ms,Microsoft
+DOMAIN-SUFFIX,hotmail.com,Microsoft
+DOMAIN-SUFFIX,kollective.app,Microsoft
+DOMAIN-SUFFIX,live.com,Microsoft
+DOMAIN-SUFFIX,live.net,Microsoft
+DOMAIN-SUFFIX,lync.com,Microsoft
+DOMAIN-SUFFIX,msappproxy.net,Microsoft
+DOMAIN-SUFFIX,msauth.net,Microsoft
+DOMAIN-SUFFIX,msauthimages.net,Microsoft
+DOMAIN-SUFFIX,msecnd.net,Microsoft
+DOMAIN-SUFFIX,msedge.net,Microsoft
+DOMAIN-SUFFIX,msft.net,Microsoft
+DOMAIN-SUFFIX,msftauth.net,Microsoft
+DOMAIN-SUFFIX,msftauthimages.net,Microsoft
+DOMAIN-SUFFIX,msftidentity.com,Microsoft
+DOMAIN-SUFFIX,msidentity.com,Microsoft
+DOMAIN-SUFFIX,msn.com,Microsoft
+DOMAIN-SUFFIX,msocdn.com,Microsoft
+DOMAIN-SUFFIX,msocsp.com,Microsoft
+DOMAIN-SUFFIX,mstea.ms,Microsoft
+DOMAIN-SUFFIX,o365weve.com,Microsoft
+DOMAIN-SUFFIX,oaspapps.com,Microsoft
+DOMAIN-SUFFIX,office.com,Microsoft
+DOMAIN-SUFFIX,office.net,Microsoft
+DOMAIN-SUFFIX,office365.com,Microsoft
+DOMAIN-SUFFIX,officeppe.net,Microsoft
+DOMAIN-SUFFIX,omniroot.com,Microsoft
+DOMAIN-SUFFIX,onedrive.com,Microsoft
+DOMAIN-SUFFIX,onenote.com,Microsoft
+DOMAIN-SUFFIX,onenote.net,Microsoft
+DOMAIN-SUFFIX,onestore.ms,Microsoft
+DOMAIN-SUFFIX,outlook.com,Microsoft
+DOMAIN-SUFFIX,outlookmobile.com,Microsoft
+DOMAIN-SUFFIX,phonefactor.net,Microsoft
+DOMAIN-SUFFIX,public-trust.com,Microsoft
+DOMAIN-SUFFIX,sfbassets.com,Microsoft
+DOMAIN-SUFFIX,sfx.ms,Microsoft
+DOMAIN-SUFFIX,sharepoint.com,Microsoft
+DOMAIN-SUFFIX,sharepointonline.com,Microsoft
+DOMAIN-SUFFIX,skype.com,Microsoft
+DOMAIN-SUFFIX,skypeassets.com,Microsoft
+DOMAIN-SUFFIX,skypeforbusiness.com,Microsoft
+DOMAIN-SUFFIX,staffhub.ms,Microsoft
+DOMAIN-SUFFIX,svc.ms,Microsoft
+DOMAIN-SUFFIX,sway-cdn.com,Microsoft
+DOMAIN-SUFFIX,sway-extensions.com,Microsoft
+DOMAIN-SUFFIX,sway.com,Microsoft
+DOMAIN-SUFFIX,trafficmanager.net,Microsoft
+DOMAIN-SUFFIX,uservoice.com,Microsoft
+DOMAIN-SUFFIX,virtualearth.net,Microsoft
+DOMAIN-SUFFIX,visualstudio.com,Microsoft
+DOMAIN-SUFFIX,windows-ppe.net,Microsoft
+DOMAIN-SUFFIX,windows.com,Microsoft
+DOMAIN-SUFFIX,windows.net,Microsoft
+DOMAIN-SUFFIX,windowsazure.com,Microsoft
+DOMAIN-SUFFIX,windowsupdate.com,Microsoft
+DOMAIN-SUFFIX,wunderlist.com,Microsoft
+DOMAIN-SUFFIX,yammer.com,Microsoft
+DOMAIN-SUFFIX,yammerusercontent.com,Microsoft
 
-DOMAIN-KEYWORD,Ⓜ️ 微软,Ⓜ️ 微软
+DOMAIN-KEYWORD,Microsoft,Microsoft
 
 # Speed Test
 USER-AGENT,SpeedTest*,DIRECT
@@ -305,74 +305,74 @@ DOMAIN-SUFFIX,ybex.io,♻️ 自动选择
 DOMAIN-SUFFIX,yopmail.com,♻️ 自动选择 
 DOMAIN-SUFFIX,zhaojiaren.club,♻️ 自动选择 
 
-# 📲 电报消息
-IP-CIDR,67.198.55.0/24,📲 电报消息
-IP-CIDR,91.108.12.0/22,📲 电报消息
-IP-CIDR,91.108.12.0/22,📲 电报消息
-IP-CIDR,91.108.12.0/27,📲 电报消息
-IP-CIDR,91.108.16.0/22,📲 电报消息
-IP-CIDR,91.108.16.0/22,📲 电报消息
-IP-CIDR,91.108.16.0/27,📲 电报消息
-IP-CIDR,91.108.20.0/22,📲 电报消息
-IP-CIDR,91.108.20.0/23,📲 电报消息
-IP-CIDR,91.108.4.0/22,📲 电报消息
-IP-CIDR,91.108.4.0/22,📲 电报消息
-IP-CIDR,91.108.4.0/24,📲 电报消息
-IP-CIDR,91.108.56.0/22,📲 电报消息
-IP-CIDR,91.108.56.0/22,📲 电报消息
-IP-CIDR,91.108.56.0/23,📲 电报消息
-IP-CIDR,91.108.56.0/24,📲 电报消息
-IP-CIDR,91.108.8.0/22,📲 电报消息
-IP-CIDR,91.108.8.0/22,📲 电报消息
-IP-CIDR,91.108.8.0/27,📲 电报消息
-IP-CIDR,95.161.64.0/20,📲 电报消息
-IP-CIDR,95.161.84.0/23,📲 电报消息
-IP-CIDR,109.239.140.0/24,📲 电报消息
-IP-CIDR,149.154.160.0/20,📲 电报消息
-IP-CIDR,149.154.160.0/22,📲 电报消息
-IP-CIDR,149.154.160.0/22,📲 电报消息
-IP-CIDR,149.154.164.0/22,📲 电报消息
-IP-CIDR,149.154.164.0/22,📲 电报消息
-IP-CIDR,149.154.164.250/32,📲 电报消息
-IP-CIDR,149.154.164.8/29,📲 电报消息
-IP-CIDR,149.154.165.120/32,📲 电报消息
-IP-CIDR,149.154.166.120/32,📲 电报消息
-IP-CIDR,149.154.167.117/32,📲 电报消息
-IP-CIDR,149.154.167.118/32,📲 电报消息
-IP-CIDR,149.154.167.192/27,📲 电报消息
-IP-CIDR,149.154.167.40/32,📲 电报消息
-IP-CIDR,149.154.167.42/32,📲 电报消息
-IP-CIDR,149.154.167.50/32,📲 电报消息
-IP-CIDR,149.154.167.51/32,📲 电报消息
-IP-CIDR,149.154.167.90/32,📲 电报消息
-IP-CIDR,149.154.167.91/32,📲 电报消息
-IP-CIDR,149.154.167.99/32,📲 电报消息
-IP-CIDR,149.154.168.0/22,📲 电报消息
-IP-CIDR,149.154.168.0/22,📲 电报消息
-IP-CIDR,149.154.172.0/22,📲 电报消息
-IP-CIDR,149.154.172.0/22,📲 电报消息
-IP-CIDR,149.154.175.10/32,📲 电报消息
-IP-CIDR,149.154.175.100/32,📲 电报消息
-IP-CIDR,149.154.175.117/32,📲 电报消息
-IP-CIDR,149.154.175.50/32,📲 电报消息
+# Telegram
+IP-CIDR,67.198.55.0/24,Telegram
+IP-CIDR,91.108.12.0/22,Telegram
+IP-CIDR,91.108.12.0/22,Telegram
+IP-CIDR,91.108.12.0/27,Telegram
+IP-CIDR,91.108.16.0/22,Telegram
+IP-CIDR,91.108.16.0/22,Telegram
+IP-CIDR,91.108.16.0/27,Telegram
+IP-CIDR,91.108.20.0/22,Telegram
+IP-CIDR,91.108.20.0/23,Telegram
+IP-CIDR,91.108.4.0/22,Telegram
+IP-CIDR,91.108.4.0/22,Telegram
+IP-CIDR,91.108.4.0/24,Telegram
+IP-CIDR,91.108.56.0/22,Telegram
+IP-CIDR,91.108.56.0/22,Telegram
+IP-CIDR,91.108.56.0/23,Telegram
+IP-CIDR,91.108.56.0/24,Telegram
+IP-CIDR,91.108.8.0/22,Telegram
+IP-CIDR,91.108.8.0/22,Telegram
+IP-CIDR,91.108.8.0/27,Telegram
+IP-CIDR,95.161.64.0/20,Telegram
+IP-CIDR,95.161.84.0/23,Telegram
+IP-CIDR,109.239.140.0/24,Telegram
+IP-CIDR,149.154.160.0/20,Telegram
+IP-CIDR,149.154.160.0/22,Telegram
+IP-CIDR,149.154.160.0/22,Telegram
+IP-CIDR,149.154.164.0/22,Telegram
+IP-CIDR,149.154.164.0/22,Telegram
+IP-CIDR,149.154.164.250/32,Telegram
+IP-CIDR,149.154.164.8/29,Telegram
+IP-CIDR,149.154.165.120/32,Telegram
+IP-CIDR,149.154.166.120/32,Telegram
+IP-CIDR,149.154.167.117/32,Telegram
+IP-CIDR,149.154.167.118/32,Telegram
+IP-CIDR,149.154.167.192/27,Telegram
+IP-CIDR,149.154.167.40/32,Telegram
+IP-CIDR,149.154.167.42/32,Telegram
+IP-CIDR,149.154.167.50/32,Telegram
+IP-CIDR,149.154.167.51/32,Telegram
+IP-CIDR,149.154.167.90/32,Telegram
+IP-CIDR,149.154.167.91/32,Telegram
+IP-CIDR,149.154.167.99/32,Telegram
+IP-CIDR,149.154.168.0/22,Telegram
+IP-CIDR,149.154.168.0/22,Telegram
+IP-CIDR,149.154.172.0/22,Telegram
+IP-CIDR,149.154.172.0/22,Telegram
+IP-CIDR,149.154.175.10/32,Telegram
+IP-CIDR,149.154.175.100/32,Telegram
+IP-CIDR,149.154.175.117/32,Telegram
+IP-CIDR,149.154.175.50/32,Telegram
 
-IP6-CIDR,2001:67c:4e8::/48,📲 电报消息
-IP6-CIDR,2001:67c:4e8::/48,📲 电报消息
-IP6-CIDR,2001:67c:4e8:f002::a/128,📲 电报消息
-IP6-CIDR,2001:67c:4e8:f002::e/128,📲 电报消息
-IP6-CIDR,2001:67c:4e8:f004::a/128,📲 电报消息
-IP6-CIDR,2001:67c:4e8:fa60::/64,📲 电报消息
-IP6-CIDR,2001:b28:f23c::/48,📲 电报消息
-IP6-CIDR,2001:b28:f23d::/48,📲 电报消息
-IP6-CIDR,2001:b28:f23d::/48,📲 电报消息
-IP6-CIDR,2001:b28:f23d:f001::a/128,📲 电报消息
-IP6-CIDR,2001:b28:f23d:f001::e/128,📲 电报消息
-IP6-CIDR,2001:b28:f23d:f003::a/128,📲 电报消息
-IP6-CIDR,2001:b28:f23d:f003::e/128,📲 电报消息
-IP6-CIDR,2001:b28:f23f::/48,📲 电报消息
-IP6-CIDR,2001:b28:f23f::/48,📲 电报消息
-IP6-CIDR,2001:b28:f23f:f005::a/128,📲 电报消息
-IP6-CIDR,2001:b28:f242::/48,📲 电报消息
+IP6-CIDR,2001:67c:4e8::/48,Telegram
+IP6-CIDR,2001:67c:4e8::/48,Telegram
+IP6-CIDR,2001:67c:4e8:f002::a/128,Telegram
+IP6-CIDR,2001:67c:4e8:f002::e/128,Telegram
+IP6-CIDR,2001:67c:4e8:f004::a/128,Telegram
+IP6-CIDR,2001:67c:4e8:fa60::/64,Telegram
+IP6-CIDR,2001:b28:f23c::/48,Telegram
+IP6-CIDR,2001:b28:f23d::/48,Telegram
+IP6-CIDR,2001:b28:f23d::/48,Telegram
+IP6-CIDR,2001:b28:f23d:f001::a/128,Telegram
+IP6-CIDR,2001:b28:f23d:f001::e/128,Telegram
+IP6-CIDR,2001:b28:f23d:f003::a/128,Telegram
+IP6-CIDR,2001:b28:f23d:f003::e/128,Telegram
+IP6-CIDR,2001:b28:f23f::/48,Telegram
+IP6-CIDR,2001:b28:f23f::/48,Telegram
+IP6-CIDR,2001:b28:f23f:f005::a/128,Telegram
+IP6-CIDR,2001:b28:f242::/48,Telegram
 
 # 中国国内常见域名关键词 直连
 DOMAIN-KEYWORD,kaishustory,DIRECT
