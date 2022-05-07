@@ -227,3 +227,5 @@ DOMAIN-SUFFIX,akamaihd.net,📌 延迟最低
 DOMAIN-SUFFIX,jsdelivr.net,📌 延迟最低
 #raveos
 host-keyword,raveos,📌 延迟最低
+#其他
+DOMAIN-SUFFIX,baomitu.com,🎯 DIRECT
