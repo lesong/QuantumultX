@@ -7,7 +7,7 @@ DOMAIN-SUFFIX,tw,🌸 Taiwan
 DOMAIN-SUFFIX,hinet.net,🌸 Taiwan
 DOMAIN-SUFFIX,emome.net,🌸 Taiwan
 DOMAIN-SUFFIX,litv.tv,🌸 Taiwan
-IP-CIDR,101.101.101.101/32,no-resolve,🌸 Taiwan
+IP-CIDR,101.101.101.101/32,🌸 Taiwan
 DOMAIN-SUFFIX,linkedin.com,🌸 Taiwan
 # 新加坡顶级域
 DOMAIN-SUFFIX,sg,🇸🇬Singapore
