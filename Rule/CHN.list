@@ -1,0 +1,206 @@
+# === 仅在中国大陆连接的地址（直连列表） ===
+# 规则编写示例
+# DOMAIN,123.cn
+# DOMAIN-SUFFIX,123.com
+# DOMAIN-KEYWORD,fool
+# IP-CIDR,223.5.5.5/32（包括域名）
+# IP-CIDR,223.5.5.5/32,no-resolve（单IP）
+# IP-CIDR6,2620:149:a44::/48
+# 顶级域列表
+DOMAIN-SUFFIX,cn
+# 常见域名关键词
+DOMAIN-KEYWORD,kaishustory
+#
+DOMAIN-SUFFIX,ipip.net
+DOMAIN-SUFFIX,immtel.co
+DOMAIN-SUFFIX,nxtlnodes.com
+# playstation CDN
+# https://github.com/loongfzs/Clash-Config/blob/main/Clash/GeneralConfig_no-ipv6_redir-host.yml 219 line 未使用
+# 游戏平台国内CDN
+# uplay平台
+DOMAIN,uplaypc-s-ubisoft.cdn.ubi.com
+DOMAIN,uplaypc-s-ubisoft-ww.cdn.ubi.com
+# 中移
+DOMAIN-SUFFIX,139.com
+DOMAIN-SUFFIX,cmpassport.com
+DOMAIN-SUFFIX,chinamobile.com
+DOMAIN-SUFFIX,miguvideo.com
+DOMAIN-SUFFIX,migucloud.com
+DOMAIN-SUFFIX,caiyunapp.com
+DOMAIN-SUFFIX,mmarket.com
+# 中国联通
+DOMAIN-SUFFIX,10010.com
+# 字节跳动 https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ByteDance.list
+DOMAIN-SUFFIX,douyin.com
+DOMAIN-SUFFIX,douyinpic.com
+DOMAIN-SUFFIX,douyincdn.com
+DOMAIN-SUFFIX,douyinvod.com
+DOMAIN-SUFFIX,douyinstatic.com
+DOMAIN-SUFFIX,snssdk.com
+DOMAIN-SUFFIX,amemv.com
+DOMAIN-SUFFIX,amemv.net
+DOMAIN-SUFFIX,bytescm.com
+DOMAIN-SUFFIX,bytetos.com
+DOMAIN-SUFFIX,byteimg.com
+DOMAIN-SUFFIX,bdxiguaimg.com
+DOMAIN-SUFFIX,bytednsdoc.com
+DOMAIN-SUFFIX,bytegoofy.com
+DOMAIN-SUFFIX,feishucdn.com
+DOMAIN-SUFFIX,zijieapi.com
+DOMAIN-SUFFIX,toutiaoapi.com
+DOMAIN-SUFFIX,toutiaostatic.com
+DOMAIN-SUFFIX,awemeughun.com
+DOMAIN-SUFFIX,pstatp.com
+# 斗鱼 https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/DouYu.list
+DOMAIN-SUFFIX,douyu.com
+DOMAIN-SUFFIX,edgesrv.com
+# 腾讯音乐
+DOMAIN-SUFFIX,tencentmusic.com
+# 酷狗音乐
+DOMAIN-SUFFIX,kugou.com
+DOMAIN-SUFFIX,kgimg.com
+# 酷我音乐
+DOMAIN-SUFFIX,koowo.com
+# 金融服务
+DOMAIN-SUFFIX,paypal.com
+# 银联
+DOMAIN-SUFFIX,unionpay.com
+DOMAIN-SUFFIX,95516.com
+# 中国建设银行
+DOMAIN-SUFFIX,ccb.com
+# 工商银行
+DOMAIN-SUFFIX,icbc.com
+# 农业银行
+DOMAIN-SUFFIX,abchina.com
+# 中国银行
+DOMAIN-KEYWORD,bankofchina
+# 中信银行
+DOMAIN-KEYWORD,citicbank
+DOMAIN-SUFFIX,ecitic.com
+DOMAIN-SUFFIX,cncbinternational.com
+# 交通银行
+DOMAIN-KEYWORD,bankcomm
+DOMAIN-KEYWORD,ccbhome
+DOMAIN-SUFFIX,icbc-ltd.com
+DOMAIN-KEYWORD,icbcstandard
+# 邮政储蓄
+DOMAIN-SUFFIX,psbc.com
+# 光大银行
+DOMAIN-SUFFIX,cebbank.com
+# 广发银行
+DOMAIN-KEYWORD,cgbchina
+# 招商银行
+DOMAIN-KEYWORD,cmbchina
+# 华为
+DOMAIN-SUFFIX,hicloud.com
+DOMAIN-SUFFIX,dbankcdn.com
+DOMAIN-SUFFIX,huawei.com
+DOMAIN-SUFFIX,huaweicloud.com
+DOMAIN-SUFFIX,myhuaweicloud.com
+DOMAIN-SUFFIX,dbankcloud.com
+DOMAIN-SUFFIX,hwccpc.com
+# 迅雷
+DOMAIN-SUFFIX,sandai.net
+DOMAIN-SUFFIX,xunlei.com
+# P2P下载
+DOMAIN-KEYWORD,announce
+DOMAIN-KEYWORD,torrent
+DOMAIN-KEYWORD,tracker
+# CODING
+DOMAIN-SUFFIX,coding.net
+# 贝锐
+DOMAIN-SUFFIX,oray.com
+DOMAIN-SUFFIX,oray.net
+DOMAIN-SUFFIX,orayimg.com
+DOMAIN-SUFFIX,3dmgame.com
+DOMAIN-SUFFIX,8686c.com
+DOMAIN-SUFFIX,baicizhan.com
+DOMAIN-SUFFIX,baidupan.com
+DOMAIN-SUFFIX,chaoxing.com
+DOMAIN-SUFFIX,chinaz.com
+DOMAIN-SUFFIX,cibntv.net
+DOMAIN-SUFFIX,cloudxns.net
+DOMAIN-SUFFIX,cnki.net
+DOMAIN-SUFFIX,douban.com
+DOMAIN-SUFFIX,doubanio.com
+DOMAIN-SUFFIX,huya.com
+DOMAIN-SUFFIX,ksyungslb.com
+DOMAIN-SUFFIX,kuaidi100.com
+DOMAIN-SUFFIX,lxdns.com
+DOMAIN-SUFFIX,ourdvs.com
+DOMAIN-SUFFIX,qcloud.com
+DOMAIN-SUFFIX,qcloudcdn.com
+DOMAIN-SUFFIX,qiniu.com
+DOMAIN-SUFFIX,qiniucdn.com
+DOMAIN-SUFFIX,upyun.com
+DOMAIN-SUFFIX,videocc.net
+DOMAIN-SUFFIX,wscdns.com
+DOMAIN-SUFFIX,xhscdn.com
+DOMAIN-SUFFIX,xiachufang.com
+DOMAIN-SUFFIX,xiaohongshu.com
+DOMAIN-SUFFIX,xinhuanet.com
+DOMAIN-SUFFIX,yy.com
+DOMAIN-SUFFIX,yystatic.com
+DOMAIN-SUFFIX,zhanqi.tv
+DOMAIN-SUFFIX,zhihu.com
+DOMAIN-SUFFIX,zhimg.com
+DOMAIN-SUFFIX,zhihuishu.com
+# 中国国内常见域名关键词 直连
+DOMAIN-KEYWORD,chinamobile
+DOMAIN-KEYWORD,miguvideo
+DOMAIN-KEYWORD,chinaunicom
+DOMAIN-KEYWORD,unicompayment
+# 中国电信
+DOMAIN-KEYWORD,chinatelecom
+DOMAIN-SUFFIX,21cn.com
+DOMAIN-SUFFIX,21cn.net
+DOMAIN-KEYWORD,bytedance
+DOMAIN-KEYWORD,toutiao
+DOMAIN-KEYWORD,douyin
+DOMAIN-KEYWORD,xigua
+DOMAIN-KEYWORD,zijie
+DOMAIN-KEYWORD,huoshan
+DOMAIN-KEYWORD,douyu
+# 小猿搜题
+DOMAIN-KEYWORD,yuanfudao
+DOMAIN-KEYWORD,yfdurl
+DOMAIN-KEYWORD,yuansouti
+DOMAIN-KEYWORD,yuantiku
+DOMAIN-KEYWORD,shandiansiwei
+DOMAIN-KEYWORD,banmaaike
+DOMAIN-KEYWORD,banmagushi
+DOMAIN-KEYWORD,kugou
+# dingtalk
+DOMAIN-KEYWORD,dingtalk
+DOMAIN-SUFFIX,ddurl.to
+DOMAIN-SUFFIX,laiwang.com
+DOMAIN-KEYWORD,unionpay
+# VISA
+DOMAIN-SUFFIX,visa.com
+DOMAIN-SUFFIX,visa.co
+# 京东
+DOMAIN-SUFFIX,jd.com
+DOMAIN-KEYWORD,jdpay
+DOMAIN-KEYWORD,jdcloud
+# hw
+DOMAIN-SUFFIX,vmall.com
+DOMAIN-SUFFIX,harmonyos.com
+DOMAIN-KEYWORD,hwclouds
+DOMAIN-KEYWORD,dbankcloud
+DOMAIN-KEYWORD,dbankcdn
+DOMAIN-KEYWORD,huawei
+# mi
+DOMAIN-KEYWORD,xiaomi
+DOMAIN-SUFFIX,mi.com
+DOMAIN-SUFFIX,miui.com
+DOMAIN-SUFFIX,kuaipandata.com
+DOMAIN-SUFFIX,huami.com
+DOMAIN-SUFFIX,mipush.com
+DOMAIN-SUFFIX,duokan.com
+# Anti-BT
+DOMAIN-SUFFIX,smtp
+# dns服务
+DOMAIN-SUFFIX,dot.pub
+DOMAIN-SUFFIX,doh.pub
+DOMAIN-SUFFIX,dns.pub
+DOMAIN-SUFFIX,alidns.com
