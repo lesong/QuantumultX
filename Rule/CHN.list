@@ -204,3 +204,37 @@ DOMAIN-SUFFIX,dot.pub
 DOMAIN-SUFFIX,doh.pub
 DOMAIN-SUFFIX,dns.pub
 DOMAIN-SUFFIX,alidns.com
+IP-CIDR,1.12.34.56/32,no-resolve
+# 邮箱服务端口
+DST-PORT,993
+DST-PORT,25
+DST-PORT,995
+DST-PORT,110
+DST-PORT,143
+DST-PORT,109
+DST-PORT,465
+DST-PORT,587
+# NTP（网络时间同步）服务
+DST-PORT,123
+DOMAIN,time.cloudflare.com
+DOMAIN,time.windows.com
+DOMAIN,time.apple.com
+DOMAIN,time-ios.apple.com
+DOMAIN,time-macos.apple.com
+DOMAIN-SUFFIX,pool.ntp.org
+DOMAIN,time.nist.gov
+# 2345天气
+DOMAIN,tianqi.2345.com
+DOMAIN,img1.2345.com
+DOMAIN,tianqi-stream.2345cdn.net
+# Getui地震速报
+DOMAIN-SUFFIX,dizhensubao.getui.com
+# Tencent
+DOMAIN,fairplay.l.qq.com
+DOMAIN,livew.l.qq.com
+DOMAIN,vd.l.qq.com
+# Umeng
+DOMAIN,msg.umeng.com
+# twitch(老鼠台)直播视频流（省流）
+DOMAIN-SUFFIX,ttvnw.net
+DOMAIN,static.twitchcdn.net

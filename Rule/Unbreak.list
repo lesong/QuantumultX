@@ -1,177 +1,140 @@
 # Unbreak lesong自用规则修正
+# 顶级域名分流
+# 香港顶级域
+DOMAIN-SUFFIX,hk,🇭🇰Hong Kong
+# 台湾顶级域
+DOMAIN-SUFFIX,tw,🌸 Taiwan
+DOMAIN-SUFFIX,hinet.net,🌸 Taiwan
+DOMAIN-SUFFIX,emome.net,🌸 Taiwan
+DOMAIN-SUFFIX,litv.tv,🌸 Taiwan
+IP-CIDR,101.101.101.101/32,no-resolve,🌸 Taiwan
+DOMAIN-SUFFIX,linkedin.com,🌸 Taiwan
+# 新加坡顶级域
+DOMAIN-SUFFIX,sg,🇸🇬Singapore
+# 日本顶级域
+DOMAIN-SUFFIX,jp,🇯🇵Japan
+# 美国顶级域
+DOMAIN-SUFFIX,us,🇺🇸United States
+DOMAIN,lb-rdv-steep.ubisoft.com,🇺🇸United States
+DOMAIN,useast1-public-ubiservices.ubi.com,🇺🇸United States
+DOMAIN,lens.l.google.com,🇺🇸United States
 # ultramobile
 DOMAIN-SUFFIX,launchdarkly.com,🇺🇸United States
 DOMAIN-SUFFIX,ultramobile.com,🇺🇸United States
 DOMAIN-KEYWORD,ultramobile,🇺🇸United States
 DOMAIN-SUFFIX,amplitude.com,🇺🇸United States
-
 # 2miners
 DOMAIN-KEYWORD,2miners,🇺🇸United States
-
 #target
 DOMAIN-KEYWORD,target,🇺🇸United States
 DOMAIN-SUFFIX,target.com,🇺🇸United States
 DOMAIN-SUFFIX,carnivalmobile.com,🇺🇸United States
-
-# > PayPal
-USER-AGENT,PayPal*,🇺🇸United States
-DOMAIN-SUFFIX,paypal.com,🇺🇸United States
-DOMAIN-SUFFIX,paypal.me,🇺🇸United States
-DOMAIN-SUFFIX,paypalobjects.com,🇺🇸United States
-
 #百度地图开屏广告
 DOMAIN,dss0.bdstatic.com,REJECT
-
-DOMAIN,app.adjust.com,DIRECT
-
-DOMAIN,bdtj.tagtic.cn,DIRECT
-
-DOMAIN,log.mmstat.com,DIRECT
-DOMAIN,sycm.mmstat.com,DIRECT
-
-DOMAIN,analytics.strava.com,DIRECT
+DOMAIN,app.adjust.com,🎯 DIRECT
+DOMAIN,bdtj.tagtic.cn,🎯 DIRECT
+DOMAIN,log.mmstat.com,🎯 DIRECT
+DOMAIN,sycm.mmstat.com,🎯 DIRECT
+DOMAIN,analytics.strava.com,🎯 DIRECT
 # > Tencent
-DOMAIN,fairplay.l.qq.com,DIRECT
-DOMAIN,livew.l.qq.com,DIRECT
-DOMAIN,vd.l.qq.com,DIRECT
-
-DOMAIN,msg.umeng.com,DIRECT
-DOMAIN,msg.umengcloud.com,DIRECT
-
+DOMAIN,fairplay.l.qq.com,🎯 DIRECT
+DOMAIN,livew.l.qq.com,🎯 DIRECT
+DOMAIN,vd.l.qq.com,🎯 DIRECT
+DOMAIN,msg.umeng.com,🎯 DIRECT
+DOMAIN,msg.umengcloud.com,🎯 DIRECT
 # Direct
-DOMAIN,images-cn.ssl-images-amazon.com,DIRECT
-
-DOMAIN,nrch.culture.tw,DIRECT
-
+DOMAIN,images-cn.ssl-images-amazon.com,🎯 DIRECT
+DOMAIN,nrch.culture.tw,🎯 DIRECT
 # >> Paramount+
-DOMAIN,pubads.g.doubleclick.net,DIRECT
-
+DOMAIN,pubads.g.doubleclick.net,🎯 DIRECT
 # Google
-DOMAIN-SUFFIX,app-measurement.com,DIRECT
-DOMAIN-SUFFIX,recaptcha.net,DIRECT
-
-DOMAIN,gtm.oasisfeng.com,DIRECT
-
-DOMAIN,checkin.gstatic.com,DIRECT
-DOMAIN,connectivitycheck.gstatic.com,DIRECT
-DOMAIN,csi.gstatic.com,DIRECT
-DOMAIN,fonts.gstatic.com,DIRECT
-DOMAIN,ssl.gstatic.com,DIRECT
-DOMAIN,www.gstatic.com,DIRECT
-
-DOMAIN,redirector.gvt1.com,DIRECT
-DOMAIN,beacons.gcp.gvt2.com,DIRECT
-DOMAIN,beacons.gvt2.com,DIRECT
-DOMAIN,beacons2.gvt2.com,DIRECT
-DOMAIN,beacons3.gvt2.com,DIRECT
-
-DOMAIN,crl.pki.goog,DIRECT
-DOMAIN,ocsp.pki.goog,DIRECT
-
-DOMAIN,translate.google.cn,DIRECT
-
-DOMAIN,c.android.clients.google.com,DIRECT
-DOMAIN,cache.pack.google.com,DIRECT
-DOMAIN,corp.google.com,DIRECT
-DOMAIN,dl.l.google.com,DIRECT
-DOMAIN,dl.google.com,DIRECT
-
-DOMAIN,pagead-googlehosted.l.google.com,DIRECT
-DOMAIN,safebrowsing-cache.google.com,DIRECT
-DOMAIN,ssl-google-analytics.l.google.com,DIRECT
-DOMAIN,toolbarqueries.google.com,DIRECT
-DOMAIN,tools.google.com,DIRECT
-DOMAIN,tools.l.google.com,DIRECT
-DOMAIN,www-googletagmanager.l.google.com,DIRECT
-
-DOMAIN,clientservices.googleapis.com,DIRECT
-DOMAIN,fonts.googleapis.com,DIRECT
-DOMAIN,imasdk.googleapis.com,DIRECT
-DOMAIN,safebrowsing.googleapis.com,DIRECT
-DOMAIN,translate.googleapis.com,DIRECT
-DOMAIN,update.googleapis.com,DIRECT
-
-DOMAIN-SUFFIX,googleanalytics.com,DIRECT
-DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
-
-# Apple
-DOMAIN,lookup-api.apple.com,📌 延迟最低
-DOMAIN,testflight.apple.com,📌 延迟最低
-DOMAIN-SUFFIX,apple.comscoreresearch.com,📌 延迟最低
-DOMAIN-SUFFIX,smoot.apple.com,📌 延迟最低
-DOMAIN-SUFFIX,safebrowsing.apple,📌 延迟最低
-
-
-# > iOS updates
-DOMAIN,appldnld.apple.com,DIRECT
-DOMAIN,ns.itunes.apple.com,DIRECT
-# > iOS, tvOS, and macOS
-DOMAIN,mesu.apple.com,REJECT
-DOMAIN,updates.cdn-apple.com,REJECT
-DOMAIN,updates-http.cdn-apple.com,REJECT
-DOMAIN,xp.apple.com,REJECT
-DOMAIN,gdmf.apple.com,REJECT
-
-DOMAIN-SUFFIX,icloud.com,DIRECT
-DOMAIN-SUFFIX,icloud-content.com,DIRECT
-
+DOMAIN-SUFFIX,app-measurement.com,🎯 DIRECT
+DOMAIN-SUFFIX,recaptcha.net,🎯 DIRECT
+DOMAIN,gtm.oasisfeng.com,🎯 DIRECT
+DOMAIN,checkin.gstatic.com,🎯 DIRECT
+DOMAIN,connectivitycheck.gstatic.com,🎯 DIRECT
+DOMAIN,csi.gstatic.com,🎯 DIRECT
+DOMAIN,fonts.gstatic.com,🎯 DIRECT
+DOMAIN,ssl.gstatic.com,🎯 DIRECT
+DOMAIN,www.gstatic.com,🎯 DIRECT
+DOMAIN,redirector.gvt1.com,🎯 DIRECT
+DOMAIN,beacons.gcp.gvt2.com,🎯 DIRECT
+DOMAIN,beacons.gvt2.com,🎯 DIRECT
+DOMAIN,beacons2.gvt2.com,🎯 DIRECT
+DOMAIN,beacons3.gvt2.com,🎯 DIRECT
+DOMAIN,crl.pki.goog,🎯 DIRECT
+DOMAIN,ocsp.pki.goog,🎯 DIRECT
+DOMAIN,translate.google.cn,🎯 DIRECT
+DOMAIN,c.android.clients.google.com,🎯 DIRECT
+DOMAIN,cache.pack.google.com,🎯 DIRECT
+DOMAIN,corp.google.com,🎯 DIRECT
+DOMAIN,dl.l.google.com,🎯 DIRECT
+DOMAIN,dl.google.com,🎯 DIRECT
+DOMAIN,pagead-googlehosted.l.google.com,🎯 DIRECT
+DOMAIN,safebrowsing-cache.google.com,🎯 DIRECT
+DOMAIN,ssl-google-analytics.l.google.com,🎯 DIRECT
+DOMAIN,toolbarqueries.google.com,🎯 DIRECT
+DOMAIN,tools.google.com,🎯 DIRECT
+DOMAIN,tools.l.google.com,🎯 DIRECT
+DOMAIN,www-googletagmanager.l.google.com,🎯 DIRECT
+DOMAIN,clientservices.googleapis.com,🎯 DIRECT
+DOMAIN,fonts.googleapis.com,🎯 DIRECT
+DOMAIN,imasdk.googleapis.com,🎯 DIRECT
+DOMAIN,safebrowsing.googleapis.com,🎯 DIRECT
+DOMAIN,translate.googleapis.com,🎯 DIRECT
+DOMAIN,update.googleapis.com,🎯 DIRECT
+DOMAIN-SUFFIX,googleanalytics.com,🎯 DIRECT
+DOMAIN-SUFFIX,googletraveladservices.com,🎯 DIRECT
+# App Store应用下载
+host-suffix, iosapps.itunes.apple.com,🎯 DIRECT
+DOMAIN-SUFFIX,mzstatic.com,🎯 DIRECT
+DOMAIN-SUFFIX,itunes.apple.com,🎯 DIRECT
+DOMAIN-SUFFIX,phobos.apple.com,🎯 DIRECT
+DOMAIN-SUFFIX,aaplimg.com,🎯 DIRECT
+DOMAIN,apps.apple.com,🎯 DIRECT
 # Ⓜ️ Microsoft
 # https://docs.Ⓜ️ Microsoft.com/en-us/office365/enterprise/urls-and-ip-address-ranges
-
 DOMAIN,jdsharedresourcescdn.azureedge.net,📌 延迟最低
 DOMAIN,outlook.office365.com,📌 延迟最低
 DOMAIN,www.bing.com,📌 延迟最低
 DOMAIN-SUFFIX,hk.msn.com,🇭🇰Hong Kong
 DOMAIN-SUFFIX,msn.com.tw,🌸 Taiwan
-
-# Speed Test
-USER-AGENT,SpeedTest*,DIRECT
-DOMAIN-KEYWORD,speedtest,DIRECT
-
 # Proxy
 DOMAIN-KEYWORD,jinkela,📌 延迟最低
-
 DOMAIN,cutt.ly,📌 延迟最低
 DOMAIN,i.loli.net,📌 延迟最低
 DOMAIN,relay.firefox.com,📌 延迟最低
 DOMAIN,search.avira.com,📌 延迟最低
 DOMAIN,us.weibo.com,📌 延迟最低
-
 DOMAIN-SUFFIX,iavnight.com,📌 延迟最低
-
 DOMAIN-KEYWORD,91p,📌 延迟最低
 DOMAIN,blackmorase.com,📌 延迟最低
 DOMAIN,i.p04.space,📌 延迟最低
-
-DOMAIN-SUFFIX,45maoee.com,📌 延迟最低 
-DOMAIN-SUFFIX,51fengliu.com,📌 延迟最低 
+DOMAIN-SUFFIX,45maoee.com,📌 延迟最低
+DOMAIN-SUFFIX,51fengliu.com,📌 延迟最低
 DOMAIN-SUFFIX,liveviptv.xyz,📌 延迟最低
 DOMAIN-SUFFIX,mdapp1.pw,📌 延迟最低
-DOMAIN-SUFFIX,onlyfans.com,📌 延迟最低 
+DOMAIN-SUFFIX,onlyfans.com,📌 延迟最低
 DOMAIN-SUFFIX,xsnvshen.com,📌 延迟最低
 DOMAIN-SUFFIX,xsnvshen.net,📌 延迟最低
-
 #cydia
 DOMAIN-SUFFIX,cydia.angelxwind.net,📌 延迟最低
 DOMAIN-SUFFIX,getdelta.co,📌 延迟最低
 DOMAIN-SUFFIX,hackyouriphone.org,📌 延迟最低
 DOMAIN-SUFFIX,ryleyangus.com,📌 延迟最低
 DOMAIN-SUFFIX,thebigboss.org,📌 延迟最低
-
 # dubox
 DOMAIN-SUFFIX,dubox.com,📌 延迟最低
 DOMAIN-SUFFIX,duboxcdn.com,📌 延迟最低
-
 # Clubhouse
 DOMAIN,clubhouse.pubnub.com,📌 延迟最低
 DOMAIN-SUFFIX,clubhouseapi.com,📌 延迟最低
 DOMAIN-SUFFIX,joinclubhouse.com,📌 延迟最低
-
 DOMAIN-SUFFIX,64memo.com,📌 延迟最低
-DOMAIN-SUFFIX,androidcentral.com,📌 延迟最低 
-DOMAIN-SUFFIX,appsliced.co,📌 延迟最低 
-DOMAIN-SUFFIX,bdwk.588230.com,📌 延迟最低 
-DOMAIN-SUFFIX,bochk.com,📌 延迟最低 
+DOMAIN-SUFFIX,androidcentral.com,📌 延迟最低
+DOMAIN-SUFFIX,appsliced.co,📌 延迟最低
+DOMAIN-SUFFIX,bdwk.588230.com,📌 延迟最低
+DOMAIN-SUFFIX,bochk.com,📌 延迟最低
 DOMAIN-SUFFIX,cloud.andrewjr.wang,📌 延迟最低
 DOMAIN-SUFFIX,cloudcone.com.cn,📌 延迟最低
 DOMAIN-SUFFIX,cloudflare.com,📌 延迟最低
@@ -181,38 +144,38 @@ DOMAIN-SUFFIX,cydialmp.vip,📌 延迟最低
 DOMAIN-SUFFIX,cyzone.cn,📌 延迟最低
 DOMAIN-SUFFIX,dawanews.com,📌 延迟最低
 DOMAIN-SUFFIX,digitpatrox.com,📌 延迟最低
-DOMAIN-SUFFIX,disquscdn.com,📌 延迟最低 
+DOMAIN-SUFFIX,disquscdn.com,📌 延迟最低
 DOMAIN-SUFFIX,dlink.za.group,📌 延迟最低
-DOMAIN-SUFFIX,easyatm.com.tw,📌 延迟最低 
-DOMAIN-SUFFIX,eprice.com.hk,📌 延迟最低 
+DOMAIN-SUFFIX,easyatm.com.tw,📌 延迟最低
+DOMAIN-SUFFIX,eprice.com.hk,📌 延迟最低
 DOMAIN-SUFFIX,feed43.com,📌 延迟最低
 DOMAIN-SUFFIX,flurry.com,📌 延迟最低
-DOMAIN-SUFFIX,ft.com,📌 延迟最低 
+DOMAIN-SUFFIX,ft.com,📌 延迟最低
 DOMAIN-SUFFIX,geacron.com,📌 延迟最低
 DOMAIN-SUFFIX,gitbook.com,📌 延迟最低
 DOMAIN-SUFFIX,gitbook.io,📌 延迟最低
-DOMAIN-SUFFIX,githubmemory.com,📌 延迟最低 
-DOMAIN-SUFFIX,goop.ai,📌 延迟最低 
-DOMAIN-SUFFIX,instabio.cc,📌 延迟最低 
-DOMAIN-SUFFIX,ixue.io,📌 延迟最低 
+DOMAIN-SUFFIX,githubmemory.com,📌 延迟最低
+DOMAIN-SUFFIX,goop.ai,📌 延迟最低
+DOMAIN-SUFFIX,instabio.cc,📌 延迟最低
+DOMAIN-SUFFIX,ixue.io,📌 延迟最低
 DOMAIN-SUFFIX,kouwobb.com,📌 延迟最低
-DOMAIN-SUFFIX,kylc.com,📌 延迟最低 
-DOMAIN-SUFFIX,libgen.rs,📌 延迟最低 
-DOMAIN-SUFFIX,limbopro.com,📌 延迟最低 
-DOMAIN-SUFFIX,limbopro.pro,📌 延迟最低 
-DOMAIN-SUFFIX,medrxiv.org,📌 延迟最低 
+DOMAIN-SUFFIX,kylc.com,📌 延迟最低
+DOMAIN-SUFFIX,libgen.rs,📌 延迟最低
+DOMAIN-SUFFIX,limbopro.com,📌 延迟最低
+DOMAIN-SUFFIX,limbopro.pro,📌 延迟最低
+DOMAIN-SUFFIX,medrxiv.org,📌 延迟最低
 DOMAIN-SUFFIX,metapix.net,📌 延迟最低
 DOMAIN-SUFFIX,myguide.hk,📌 延迟最低
 DOMAIN-SUFFIX,newsify.co,📌 延迟最低
 DOMAIN-SUFFIX,ntdimg.com,📌 延迟最低
 DOMAIN-SUFFIX,nyxz166.cn,📌 延迟最低
-DOMAIN-SUFFIX,picdiet.com,📌 延迟最低 
-DOMAIN-SUFFIX,ptwxz.com,📌 延迟最低 
-DOMAIN-SUFFIX,pysmei.com,📌 延迟最低 
+DOMAIN-SUFFIX,picdiet.com,📌 延迟最低
+DOMAIN-SUFFIX,ptwxz.com,📌 延迟最低
+DOMAIN-SUFFIX,pysmei.com,📌 延迟最低
 DOMAIN-SUFFIX,rsc.cdn77.org,📌 延迟最低
 DOMAIN-SUFFIX,sinatra.ishowsapp.com,📌 延迟最低
 DOMAIN-SUFFIX,t.cn,📌 延迟最低
-DOMAIN-SUFFIX,theappstore.org,📌 延迟最低 
+DOMAIN-SUFFIX,theappstore.org,📌 延迟最低
 DOMAIN-SUFFIX,thenationalpulse.com,📌 延迟最低
 DOMAIN-SUFFIX,tingtalk.me,📌 延迟最低
 DOMAIN-SUFFIX,translatetheweb.com,📌 延迟最低
@@ -224,216 +187,43 @@ DOMAIN-SUFFIX,voovmeeting.com,📌 延迟最低
 DOMAIN-SUFFIX,weebly.com,📌 延迟最低
 DOMAIN-SUFFIX,wemp.app,📌 延迟最低
 DOMAIN-SUFFIX,wucuoxs.com,📌 延迟最低
-DOMAIN-SUFFIX,ybex.io,📌 延迟最低 
-DOMAIN-SUFFIX,yopmail.com,📌 延迟最低 
-DOMAIN-SUFFIX,zhaojiaren.club,📌 延迟最低 
-
-# 💌 Telegram
-IP-CIDR,67.198.55.0/24,💌 Telegram
-IP-CIDR,91.108.12.0/22,💌 Telegram
-IP-CIDR,91.108.12.0/22,💌 Telegram
-IP-CIDR,91.108.12.0/27,💌 Telegram
-IP-CIDR,91.108.16.0/22,💌 Telegram
-IP-CIDR,91.108.16.0/22,💌 Telegram
-IP-CIDR,91.108.16.0/27,💌 Telegram
-IP-CIDR,91.108.20.0/22,💌 Telegram
-IP-CIDR,91.108.20.0/23,💌 Telegram
-IP-CIDR,91.108.4.0/22,💌 Telegram
-IP-CIDR,91.108.4.0/22,💌 Telegram
-IP-CIDR,91.108.4.0/24,💌 Telegram
-IP-CIDR,91.108.56.0/22,💌 Telegram
-IP-CIDR,91.108.56.0/22,💌 Telegram
-IP-CIDR,91.108.56.0/23,💌 Telegram
-IP-CIDR,91.108.56.0/24,💌 Telegram
-IP-CIDR,91.108.8.0/22,💌 Telegram
-IP-CIDR,91.108.8.0/22,💌 Telegram
-IP-CIDR,91.108.8.0/27,💌 Telegram
-IP-CIDR,95.161.64.0/20,💌 Telegram
-IP-CIDR,95.161.84.0/23,💌 Telegram
-IP-CIDR,109.239.140.0/24,💌 Telegram
-IP-CIDR,149.154.160.0/20,💌 Telegram
-IP-CIDR,149.154.160.0/22,💌 Telegram
-IP-CIDR,149.154.160.0/22,💌 Telegram
-IP-CIDR,149.154.164.0/22,💌 Telegram
-IP-CIDR,149.154.164.0/22,💌 Telegram
-IP-CIDR,149.154.164.250/32,💌 Telegram
-IP-CIDR,149.154.164.8/29,💌 Telegram
-IP-CIDR,149.154.165.120/32,💌 Telegram
-IP-CIDR,149.154.166.120/32,💌 Telegram
-IP-CIDR,149.154.167.117/32,💌 Telegram
-IP-CIDR,149.154.167.118/32,💌 Telegram
-IP-CIDR,149.154.167.192/27,💌 Telegram
-IP-CIDR,149.154.167.40/32,💌 Telegram
-IP-CIDR,149.154.167.42/32,💌 Telegram
-IP-CIDR,149.154.167.50/32,💌 Telegram
-IP-CIDR,149.154.167.51/32,💌 Telegram
-IP-CIDR,149.154.167.90/32,💌 Telegram
-IP-CIDR,149.154.167.91/32,💌 Telegram
-IP-CIDR,149.154.167.99/32,💌 Telegram
-IP-CIDR,149.154.168.0/22,💌 Telegram
-IP-CIDR,149.154.168.0/22,💌 Telegram
-IP-CIDR,149.154.172.0/22,💌 Telegram
-IP-CIDR,149.154.172.0/22,💌 Telegram
-IP-CIDR,149.154.175.10/32,💌 Telegram
-IP-CIDR,149.154.175.100/32,💌 Telegram
-IP-CIDR,149.154.175.117/32,💌 Telegram
-IP-CIDR,149.154.175.50/32,💌 Telegram
-
-IP6-CIDR,2001:67c:4e8::/48,💌 Telegram
-IP6-CIDR,2001:67c:4e8::/48,💌 Telegram
-IP6-CIDR,2001:67c:4e8:f002::a/128,💌 Telegram
-IP6-CIDR,2001:67c:4e8:f002::e/128,💌 Telegram
-IP6-CIDR,2001:67c:4e8:f004::a/128,💌 Telegram
-IP6-CIDR,2001:67c:4e8:fa60::/64,💌 Telegram
-IP6-CIDR,2001:b28:f23c::/48,💌 Telegram
-IP6-CIDR,2001:b28:f23d::/48,💌 Telegram
-IP6-CIDR,2001:b28:f23d::/48,💌 Telegram
-IP6-CIDR,2001:b28:f23d:f001::a/128,💌 Telegram
-IP6-CIDR,2001:b28:f23d:f001::e/128,💌 Telegram
-IP6-CIDR,2001:b28:f23d:f003::a/128,💌 Telegram
-IP6-CIDR,2001:b28:f23d:f003::e/128,💌 Telegram
-IP6-CIDR,2001:b28:f23f::/48,💌 Telegram
-IP6-CIDR,2001:b28:f23f::/48,💌 Telegram
-IP6-CIDR,2001:b28:f23f:f005::a/128,💌 Telegram
-IP6-CIDR,2001:b28:f242::/48,💌 Telegram
-
-# 中国国内常见域名关键词 直连
-DOMAIN-KEYWORD,kaishustory,DIRECT
-
-# 中移
-DOMAIN-SUFFIX,139.com,DIRECT
-DOMAIN-SUFFIX,cmpassport.com,DIRECT
-DOMAIN-KEYWORD,chinamobile,DIRECT
-DOMAIN-KEYWORD,miguvideo,DIRECT
-
-# 中国联通
-DOMAIN-SUFFIX,10010.com,DIRECT
-DOMAIN-KEYWORD,chinaunicom,DIRECT
-DOMAIN-KEYWORD,unicompayment,DIRECT
-
-# 中国电信
-DOMAIN-KEYWORD,chinatelecom,DIRECT
-DOMAIN-SUFFIX,21cn.com,DIRECT
-DOMAIN-SUFFIX,21cn.net,DIRECT
-
-# 字节跳动 https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ByteDance.list
-DOMAIN-KEYWORD,bytedance,DIRECT
-DOMAIN-KEYWORD,toutiao,DIRECT
-DOMAIN-KEYWORD,douyin,DIRECT
-DOMAIN-KEYWORD,xigua,DIRECT
-DOMAIN-KEYWORD,zijie,DIRECT
-DOMAIN-KEYWORD,huoshan,DIRECT
-DOMAIN-SUFFIX,amemv.com,DIRECT
-DOMAIN-SUFFIX,amemv.net,DIRECT
-DOMAIN-SUFFIX,bytescm.com,DIRECT
-DOMAIN-SUFFIX,byteimg.com,DIRECT
-DOMAIN-SUFFIX,pstatp.com,DIRECT
-DOMAIN-SUFFIX,bytednsdoc.com,DIRECT
-DOMAIN-SUFFIX,bytegoofy.com,DIRECT
-DOMAIN-SUFFIX,feishucdn.com,DIRECT
-
-# 斗鱼 https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/DouYu.list
-DOMAIN-KEYWORD,douyu,DIRECT
-
-# 小猿搜题
-DOMAIN-KEYWORD,yuanfudao,DIRECT
-DOMAIN-KEYWORD,yfdurl,DIRECT
-DOMAIN-KEYWORD,yuansouti,DIRECT
-DOMAIN-KEYWORD,yuantiku,DIRECT
-DOMAIN-KEYWORD,shandiansiwei,DIRECT
-DOMAIN-KEYWORD,banmaaike,DIRECT
-DOMAIN-KEYWORD,banmagushi,DIRECT
-
-# 酷狗音乐
-DOMAIN-KEYWORD,kugou,DIRECT
-DOMAIN-SUFFIX,kgimg.com,DIRECT
-
-# 酷我音乐
-DOMAIN-SUFFIX,koowo.com,DIRECT
-
-# dingtalk
-DOMAIN-KEYWORD,dingtalk,DIRECT
-DOMAIN-SUFFIX,ddurl.to,DIRECT
-DOMAIN-SUFFIX,laiwang.com,DIRECT
-
-# 银联
-DOMAIN-KEYWORD,unionpay,DIRECT
-
-# VISA
-DOMAIN-SUFFIX,visa.com,DIRECT
-DOMAIN-SUFFIX,visa.co,DIRECT
-
-# 中信银行
-DOMAIN-KEYWORD,citicbank,DIRECT
-DOMAIN-SUFFIX,ecitic.com,DIRECT
-DOMAIN-SUFFIX,cncbinternational.com,DIRECT
-
-# 交通银行
-DOMAIN-KEYWORD,bankcomm,DIRECT
-
-# 中国建设银行
-DOMAIN-SUFFIX,ccb.com,DIRECT
-DOMAIN-KEYWORD,ccbhome,DIRECT
-
-# 工商银行
-DOMAIN-SUFFIX,icbc-ltd.com,DIRECT
-DOMAIN-SUFFIX,icbc.com,DIRECT
-DOMAIN-KEYWORD,icbcstandard,DIRECT
-
-# 邮政储蓄
-DOMAIN-SUFFIX,psbc.com,DIRECT
-
-# 光大银行
-DOMAIN-SUFFIX,cebbank.com,DIRECT
-
-# 农业银行
-DOMAIN-SUFFIX,abchina.com,DIRECT
-
-# 中国银行
-DOMAIN-KEYWORD,bankofchina,DIRECT
-
-# 广发银行
-DOMAIN-KEYWORD,cgbchina,DIRECT
-
-# 招商银行
-DOMAIN-KEYWORD,cmbchina,DIRECT
-
-# jd
-DOMAIN-KEYWORD,jdpay,DIRECT
-DOMAIN-KEYWORD,jdcloud,DIRECT
-DOMAIN-SUFFIX,jd.com,DIRECT
-
-# hw
-DOMAIN-SUFFIX,vmall.com,DIRECT
-DOMAIN-SUFFIX,harmonyos.com,DIRECT
-DOMAIN-SUFFIX,hicloud.com,DIRECT
-DOMAIN-KEYWORD,hwclouds,DIRECT
-DOMAIN-KEYWORD,dbankcloud,DIRECT
-DOMAIN-KEYWORD,dbankcdn,DIRECT
-DOMAIN-KEYWORD,huawei,DIRECT
-
-# mi
-DOMAIN-KEYWORD,xiaomi,DIRECT
-DOMAIN-SUFFIX,mi.com,DIRECT
-DOMAIN-SUFFIX,miui.com,DIRECT
-DOMAIN-SUFFIX,kuaipandata.com,DIRECT
-DOMAIN-SUFFIX,huami.com,DIRECT
-DOMAIN-SUFFIX,mipush.com,DIRECT
-DOMAIN-SUFFIX,duokan.com,DIRECT
-
-# 迅雷下载
-DOMAIN-SUFFIX,sandai.net,DIRECT
-DOMAIN-SUFFIX,xunlei.com,DIRECT
-
-# Anti-BT
-DOMAIN-KEYWORD,announce,DIRECT
-DOMAIN-KEYWORD,torrent,DIRECT
-DOMAIN-KEYWORD,tracker,DIRECT
-
-DOMAIN-SUFFIX,smtp,DIRECT
-
-# dns服务
-DOMAIN-SUFFIX,dot.pub,DIRECT
-DOMAIN-SUFFIX,doh.pub,DIRECT
-DOMAIN-SUFFIX,dns.pub,DIRECT
-DOMAIN-SUFFIX,alidns.com,DIRECT
+DOMAIN-SUFFIX,ybex.io,📌 延迟最低
+DOMAIN-SUFFIX,yopmail.com,📌 延迟最低
+DOMAIN-SUFFIX,zhaojiaren.club,📌 延迟最低
+# 补充代理
+DOMAIN-SUFFIX,bing.com,📌 延迟最低
+DOMAIN,www.google.com,📌 延迟最低
+DOMAIN,translate.google.com,📌 延迟最低
+DOMAIN,mail.google.com,📌 延迟最低
+DOMAIN-SUFFIX,googlevideo.com,📌 延迟最低
+DOMAIN-SUFFIX,youtube.com,📌 延迟最低
+DOMAIN-SUFFIX,ytimg.com,📌 延迟最低
+DOMAIN-SUFFIX,1e100.net,📌 延迟最低
+DOMAIN-SUFFIX,ggpht.com,📌 延迟最低
+DOMAIN-SUFFIX,xn--ngstr-lra8j.com,📌 延迟最低
+DOMAIN-SUFFIX,android.com,📌 延迟最低
+# 国外域名
+DOMAIN-SUFFIX,apkpure.com,📌 延迟最低
+DOMAIN-SUFFIX,archive.org,📌 延迟最低
+DOMAIN-SUFFIX,duckduckco.com,📌 延迟最低
+DOMAIN-SUFFIX,pinterest.com,📌 延迟最低
+DOMAIN-SUFFIX,python.org,📌 延迟最低
+DOMAIN-SUFFIX,quora.com,📌 延迟最低
+DOMAIN-SUFFIX,v2ex.com,📌 延迟最低
+DOMAIN-SUFFIX,torproject.org,📌 延迟最低
+# 维基家族（高频访问）
+DOMAIN-SUFFIX,wikimedia.org,📌 延迟最低
+DOMAIN-SUFFIX,wikipedia.org,📌 延迟最低
+# 开发者高频站点
+DOMAIN-SUFFIX,github.com,📌 延迟最低
+DOMAIN-SUFFIX,githubusercontent.com,📌 延迟最低
+DOMAIN-SUFFIX,githubassets.com,📌 延迟最低
+DOMAIN-SUFFIX,reddit.com,📌 延迟最低
+# 国外云服务、常见CDN
+DOMAIN-SUFFIX,amazonaws.com,📌 延迟最低
+DOMAIN-SUFFIX,cloudfront.net,📌 延迟最低
+DOMAIN-SUFFIX,akamaized.net,📌 延迟最低
+DOMAIN-SUFFIX,akamaihd.net,📌 延迟最低
+DOMAIN-SUFFIX,jsdelivr.net,📌 延迟最低
+#raveos
+host-keyword,raveos,📌 延迟最低
