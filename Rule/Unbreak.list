@@ -191,3 +191,12 @@ host-keyword,raveos,🗺️ 境外网站
 DOMAIN-SUFFIX,nmobi.kuwo.cn,🎯 DIRECT
 # 其他
 DOMAIN-SUFFIX,baomitu.com,🎯 DIRECT
+# > iCloud
+HOST-SUFFIX,gateway.icloud.com,🗺️ 境外网站
+
+# > Apple News
+HOST-SUFFIX,news-edge.apple.com,🗺️ 境外网站
+HOST-SUFFIX,news-events.apple.com,🗺️ 境外网站
+HOST-SUFFIX,apple.comscoreresearch.com,🗺️ 境外网站
+# News+ Audio
+HOST-SUFFIX,news-assets.apple.com,🗺️ 境外网站
