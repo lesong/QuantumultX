@@ -185,7 +185,9 @@ DOMAIN-SUFFIX,bing.com,🗺️ 境外网站
 DOMAIN,www.google.com,🗺️ 境外网站
 DOMAIN,translate.google.com,🗺️ 境外网站
 DOMAIN,mail.google.com,🗺️ 境外网站
-#raveos
+# raveos
 host-keyword,raveos,🗺️ 境外网站
-#其他
+# 酷我音乐
+DOMAIN-SUFFIX,nmobi.kuwo.cn,🎯 DIRECT
+# 其他
 DOMAIN-SUFFIX,baomitu.com,🎯 DIRECT
